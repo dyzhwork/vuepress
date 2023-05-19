@@ -8,9 +8,12 @@ module.exports = {
       {
         text: "前端相关",
         items: [
-          { text: "HTML5", link: "/html/" },
-          { text: "CSS3", link: "/css/" },
-          { text: "JavaScript", link: "/javascript/" },
+          { text: "纯HTML", items: [{ text: "HTML5", link: "/html/" }] },
+          { text: "纯CSS", items: [{ text: "CSS3", link: "/css/" }] },
+          {
+            text: "JavaScript",
+            items: [{ text: "JavaScript", link: "/javascript/" }],
+          },
         ],
       },
       { text: "指南", link: "/guide/" },
