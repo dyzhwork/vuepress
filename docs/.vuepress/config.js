@@ -20,5 +20,9 @@ module.exports = {
       { text: "VuePress", link: "/vuepress/" },
       { text: "谷歌", link: "https://google.com" },
     ],
+    // 侧边栏
+    sidebar: {
+      "/html/": ["1.md", "1 copy", "1 copy 2", "1 copy 3"],
+    },
   },
 };
