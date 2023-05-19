@@ -6,6 +6,7 @@ module.exports = {
     nav: [
       { text: "首页", link: "/" },
       { text: "指南", link: "/guide/" },
+      { text: "VuePress", link: "/vuepress/" },
       { text: "谷歌", link: "https://google.com" },
     ],
   },
