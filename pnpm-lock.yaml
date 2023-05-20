@@ -2,8 +2,12 @@ lockfileVersion: 5.4
 
 specifiers:
   vuepress: ^1.9.9
+  vuepress-theme-vdoing: ^1.12.8
 
 dependencies:
+  vuepress-theme-vdoing: registry.npmmirror.com/vuepress-theme-vdoing/1.12.8
+
+devDependencies:
   vuepress: registry.npmmirror.com/vuepress/1.9.9
 
 packages:
