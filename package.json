@@ -15,6 +15,7 @@
     "vuepress": "^1.9.9"
   },
   "dependencies": {
+    "vue-template-compiler": "^2.7.14",
     "vuepress-theme-vdoing": "^1.12.8"
   }
 }
