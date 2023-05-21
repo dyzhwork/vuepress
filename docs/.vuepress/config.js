@@ -17,8 +17,8 @@ module.exports = {
 						text: "JavaScript",
 						items: [
 							{ text: "JavaScript", link: "/javascript/" },
-							{ text: "Canvas", link: "/javascript/" },
-							{ text: "Echarts", link: "/javascript/" },
+							{ text: "Canvas", link: "/canvas/" },
+							{ text: "Echarts", link: "/echarts/" },
 						],
 					},
 				],
@@ -58,6 +58,15 @@ module.exports = {
 						{ title: "基本元素", path: "/html/basic-element" },
 						{ title: "常用元素", path: "/html/common-element" },
 						{ title: "h5新增元素", path: "/html/h5-add-element" },
+					],
+				},
+			],
+			"/canvas": [
+				{
+					title: "二维特效",
+					sidebarDepath: 2,
+					children: [
+						{ title: "小球碰撞回弹效果", path: "/canvas/pelletcollision" },
 					],
 				},
 			],
