@@ -5,7 +5,7 @@ module.exports = {
 	description: "VuePress相关文档学习", // html 文件描述
 	head: [["link", { rel: "icon", href: "/image/panda.png" }]],
 	themeConfig: {
-		logo: "./image/panda.png",
+		logo: "/image/panda.png",
 		nav: [
 			{ text: "首页", link: "/" },
 			{
