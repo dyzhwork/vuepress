@@ -21,9 +21,19 @@ module.exports = {
 			},
 			{ text: "谷歌", link: "https://google.com" },
 		],
-		// 侧边栏
+		// 侧边栏 有四种写法,数组,数组对象,对象数组,自动生成
 		sidebar: {
-			"/html/": [],
+			"/html": [
+				{
+					title: "标签元素",
+					sidebarDepath: 2,
+					children: [
+						{ title: "基本元素", path: "/html/basic-element" },
+						{ title: "常用元素", path: "/html/common-element" },
+						{ title: "h5新增元素", path: "/html/h5-add-element" },
+					],
+				},
+			],
 		},
 	},
 };
