@@ -15,10 +15,37 @@ module.exports = {
 					{ text: "纯CSS", items: [{ text: "CSS3", link: "/css/" }] },
 					{
 						text: "JavaScript",
-						items: [{ text: "JavaScript", link: "/javascript/" }],
+						items: [
+							{ text: "JavaScript", link: "/javascript/" },
+							{ text: "Canvas", link: "/javascript/" },
+							{ text: "Echarts", link: "/javascript/" },
+						],
 					},
 				],
 			},
+			{
+				text: "后端相关",
+				items: [
+					{
+						text: "NodeJS",
+						items: [
+							{ text: "原生nodeJS", link: "/node/" },
+							{ text: "Express框架", link: "/express/" },
+							{ text: "Sequelize框架", link: "/sequelize/" },
+						],
+					},
+					{ text: "API", items: [{ text: "apifox", link: "/api/" }] },
+				],
+			},
+			{
+				text: "Git相关",
+				items: [
+					{ text: "git下载安装配置", link: "/node/" },
+					{ text: "git可视化", link: "/express/" },
+					{ text: "git报错", link: "/sequelize/" },
+				],
+			},
+			{ text: "报错整理", link: "/deal-with-error/" },
 			{ text: "谷歌", link: "https://google.com" },
 		],
 		// 侧边栏 有四种写法,数组,数组对象,对象数组,自动生成
