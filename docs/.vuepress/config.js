@@ -77,7 +77,7 @@ module.exports = {
       ],
       '/canvas': [
         {
-          title: '二维特效',
+          title: 'canvas绘图API',
           sidebarDepath: 2,
           children: [
             { title: '小球碰撞回弹效果', path: '/canvas/pelletcollision' },
