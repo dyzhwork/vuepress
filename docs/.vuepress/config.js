@@ -79,7 +79,10 @@ module.exports = {
         {
           title: '二维特效',
           sidebarDepath: 2,
-          children: [{ title: '小球碰撞回弹效果', path: '/canvas/pelletcollision' }]
+          children: [
+            { title: '小球碰撞回弹效果', path: '/canvas/pelletcollision' },
+            { title: '两个小球连接运动效果', path: '/canvas/kinematicconnection' }
+          ]
         }
       ]
     }
