@@ -3,7 +3,6 @@ home: true
 heroImage: /image/panda.png
 heroText: VuePress学习记录
 tagline: 积跬步以至千里
-# actionText: 快速上手 →
 actionLink: /
 features:
   - title: 页面结构
