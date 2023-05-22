@@ -1,45 +1,10 @@
----
-title: 小球碰撞回弹效果
-date: 2023-05-21 19:17:54
-permalink: /pages/d0dce2/
-categories:
-  - canvas
-tags:
-  -
----
+<template>
+  <div class="PelletCollision">
+    <canvas>你的浏览器不支持canvas</canvas>
+  </div>
+</template>
 
-## 一、最终效果图
-
-<PelletCollision/>
-
-## 二、使用以下几个步骤
-
-### 1.创建 HTML 元素
-
-```html
-<div class="PelletCollision">
-  <canvas>你的浏览器不支持canvas</canvas>
-</div>
-```
-
-### 2.编写 CSS 代码
-
-```css
-/* 设置容器高度 */
-.PelletCollision {
-  box-sizing: border-box;
-  height: 450px;
-}
-
-/* 设置canvas背景色 */
-canvas {
-  background: rgba(0, 0, 0, 0.3);
-}
-```
-
-### 3.编写 JavaScript 代码
-
-```js
+<script>
 // 创建小球的类
 class LittleBall {
   // 初始化属性
@@ -97,9 +62,7 @@ export default {
     }
   },
   mounted() {
-    // 获取元素宽高设置给canvas
     this.getElementWH()
-    // 生成50个小球
     this.createBall(50)
     // 监听窗口大小变化
     window.addEventListener('resize', () => {
@@ -141,4 +104,14 @@ export default {
     }
   }
 }
-```
+</script>
+
+<style>
+.PelletCollision {
+  box-sizing: border-box;
+  height: 450px;
+}
+canvas {
+  background: rgba(0, 0, 0, 0.3);
+}
+</style>
