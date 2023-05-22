@@ -5,7 +5,8 @@ permalink: /pages/d0dce2/
 categories:
   - canvas
 tags:
-  -
+  - 粒子动画
+  - 特效
 ---
 
 ## 一、最终效果图

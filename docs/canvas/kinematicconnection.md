@@ -5,7 +5,8 @@ permalink: /pages/a50a8c/
 categories:
   - canvas
 tags:
-  -
+  - 粒子动画
+  - 特效
 ---
 
 ## 一、最终实现效果
