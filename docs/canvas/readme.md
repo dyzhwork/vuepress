@@ -5,5 +5,7 @@ permalink: /pages/a15ce5/
 categories:
   - canvas
 tags:
-  - 
+  - canvas
 ---
+
+标签定义图形，比如图表和其他图像。该标签基于 JavaScript 的绘图 API。
