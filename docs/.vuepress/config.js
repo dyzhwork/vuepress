@@ -57,9 +57,9 @@ module.exports = {
           title: '标签元素',
           sidebarDepath: 2,
           children: [
-            { title: '基本元素', path: '/html/basic-element' },
-            { title: '常用元素', path: '/html/common-element' },
-            { title: 'h5新增元素', path: '/html/h5-add-element' }
+            { title: '一、基本元素', path: '/html/basic-element' },
+            { title: '二、常用元素', path: '/html/common-element' },
+            { title: '三、h5新增元素', path: '/html/h5-add-element' }
           ]
         }
       ],
