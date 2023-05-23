@@ -45,9 +45,9 @@ module.exports = {
       {
         text: 'Git相关',
         items: [
-          { text: 'git可视化', link: '/express/' },
           { text: 'git报错', link: '/sequelize/' }
           { text: 'git下载安装', link: '/git/git-install' },
+          { text: 'git的可视化', link: '/git/git-visualization' },
         ]
       },
       { text: '报错整理', link: '/deal-with-error/' },
