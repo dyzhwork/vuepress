@@ -89,6 +89,13 @@ module.exports = {
             { title: '两个小球连接运动效果', path: '/canvas/kinematicconnection' }
           ]
         }
+      ],
+      '/echarts': [
+        {
+          title: 'Echarts数据可视化',
+          sidebarDepath: 2,
+          children: [{ title: '柱状图', path: '/echarts/chart-bar' }]
+        }
       ]
     }
   }
