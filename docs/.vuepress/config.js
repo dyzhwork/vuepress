@@ -5,6 +5,9 @@ module.exports = {
   base: '/deploydoc/',
   title: '你好啊', // 顶部左侧标题
   description: 'VuePress相关文档学习', // html 文件描述
+  markdown: {
+    lineNumbers: true
+  },
   head: [['link', { rel: 'icon', href: '/image/panda.png' }]],
   themeConfig: {
     logo: '/image/panda.png',
