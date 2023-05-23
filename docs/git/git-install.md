@@ -5,7 +5,7 @@ permalink: /pages/439151/
 categories:
   - git
 tags:
-  -
+  - git
 ---
 
 # 下载安装 Git

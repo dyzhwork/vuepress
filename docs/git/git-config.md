@@ -6,6 +6,7 @@ categories:
   - git
 tags:
   - 配置
+  - git
 ---
 
 # Git 配置

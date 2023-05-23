@@ -5,7 +5,7 @@ permalink: /pages/91dcb5/
 categories:
   - git
 tags:
-  -
+  - git
 ---
 
 git 相关报错
