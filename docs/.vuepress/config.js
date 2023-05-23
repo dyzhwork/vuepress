@@ -46,6 +46,7 @@ module.exports = {
         text: 'Git相关',
         items: [
           { text: 'git下载安装', link: '/git/git-install' },
+          { text: 'git有必要配置', link: '/git/git-config' },
           { text: 'git的可视化', link: '/git/git-visualization' },
           { text: 'git相关报错', link: '/git/git-handle-error' }
         ]
