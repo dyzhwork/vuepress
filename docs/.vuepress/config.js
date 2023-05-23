@@ -67,7 +67,7 @@ module.exports = {
         {
           title: '装扮标签元素',
           sidebarDepath: 2,
-          children: []
+          children: [{ title: '一、CSS语法', path: '/css/css-syntactic' }]
         }
       ],
       '/javascript': [
