@@ -2,7 +2,7 @@
 module.exports = {
   theme: 'vdoing',
   // 配置部署路径->仓库名称
-  base: 'deployVuePress',
+  base: '/deploydoc/',
   title: '你好啊', // 顶部左侧标题
   description: 'VuePress相关文档学习', // html 文件描述
   head: [['link', { rel: 'icon', href: '/image/panda.png' }]],
