@@ -1,5 +1,5 @@
 ---
-title: CSS 语法
+title: CSS语法
 date: 2023-05-23 13:37:31
 permalink: /pages/321ca9/
 categories:

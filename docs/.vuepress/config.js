@@ -69,7 +69,7 @@ module.exports = {
           sidebarDepath: 2,
           children: [
             { title: '一、CSS语法', path: '/css/css-syntactic' },
-            { title: '二、css选择器', path: '/css/css-selector' }
+            { title: '二、CSS选择器', path: '/css/css-selector' }
           ]
         }
       ],
