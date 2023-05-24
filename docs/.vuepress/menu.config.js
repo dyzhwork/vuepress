@@ -102,7 +102,14 @@ module.exports = {
       }
     ],
     nodejs: [
-      { title: 'nodeJS下载', sidebarDepath: 3, path: '/views/node/node-download' },
+      { title: '下载', sidebarDepath: 3, path: '/views/node/node-download' },
+      { title: '安装', sidebarDepath: 3, path: '/views/node/node-install' },
+      { title: 'nvm', sidebarDepath: 3, path: '/views/node/node-version-manage' },
+      { title: '配置', sidebarDepath: 3, path: '/views/node/node-config' },
+      { title: 'npm', sidebarDepath: 3, path: '/views/node/npm' },
+      { title: 'pnpm', sidebarDepath: 3, path: '/views/node/pnpm' },
+      { title: 'yarn', sidebarDepath: 3, path: '/views/node/yarn' },
+      { title: 'nrm', sidebarDepath: 3, path: '/views/node/npm-registry-manager' }
     ]
   }
 }
