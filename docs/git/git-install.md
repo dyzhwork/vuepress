@@ -41,12 +41,12 @@ git --version
 ### ② Centos 安装 Git
 
 ```bash
-$ yum install curl-devel expat-devel gettext-devel \
+yum install curl-devel expat-devel gettext-devel \
   openssl-devel zlib-devel
 
-$ yum -y install git-core
+yum -y install git-core
 
-$ git --version
+git --version
 ```
 
 ### ③ Windows 平台上安装
