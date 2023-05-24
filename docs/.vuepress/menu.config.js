@@ -18,12 +18,12 @@ module.exports = {
       {
         text: 'NodeJS',
         items: [
-          { text: '原生nodeJS', link: '/node/' },
-          { text: 'Express框架', link: '/express/' },
-          { text: 'Sequelize框架', link: '/sequelize/' }
+          { text: 'node基础', link: '/views/node/' },
+          { text: 'Express框架', link: '/views/express/' },
+          { text: 'Sequelize框架', link: '/views/sequelize/' }
         ]
       },
-      { text: 'API', items: [{ text: 'apifox', link: '/api/' }] }
+      { text: 'API管理', items: [{ text: 'apifox', link: '/views/apifox/' }] }
     ],
     // Git相关
     git_correlation: [
