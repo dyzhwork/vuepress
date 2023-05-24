@@ -1,5 +1,5 @@
 ---
-title: NODE下载
+title: Node下载
 date: 2023-05-24 13:34:08
 permalink: /pages/baee52/
 categories:
@@ -8,4 +8,14 @@ tags:
   - 下载
 ---
 
-### nodejs 下载
+## nodejs 下载
+
+:::tip 官方网站是国外网站点击下方链接下载
+:::
+
+1. 点击前往[官方网站下载](https://nodejs.org/en),[https://nodejs.org/en](https://nodejs.org/en)选择适合自己的系统及版本下载即可
+
+:::tip 网络不好可以点击下方中文网站下载
+:::
+
+2. 点击[中文版网站下载](https://nodejs.org/zh-cn/download) 选择适合自己的系统及版本下载即可
