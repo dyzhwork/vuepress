@@ -35,15 +35,9 @@ module.exports = {
   },
   sideBarList: {
     html: [
-      {
-        title: '标签元素',
-        sidebarDepath: 2,
-        children: [
-          { title: '一、基本元素', path: '/views/html/basic-element' },
-          { title: '二、常用元素', path: '/views/html/common-element' },
-          { title: '三、h5新增元素', path: '/views/html/h5-add-element' }
-        ]
-      }
+      { title: '一、基本元素', sidebarDepath: 2, path: '/views/html/basic-element' },
+      { title: '二、常用元素', sidebarDepath: 2, path: '/views/html/common-element' },
+      { title: '三、H5新增元素', sidebarDepath: 2, path: '/views/html/h5-add-element' }
     ],
     css: [
       {
