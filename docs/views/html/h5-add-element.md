@@ -11,59 +11,72 @@ tags:
 ## HTML5 新增元素
 
 概述
-HTML5 新增的主要结构元素有 6 个：header、nav、article、aside、section、footer。
+HTML5 新增的主要结构元素可分为以下几类：
 
-## header
+## 1. 新增多媒体元素
 
-在 HTML5 中，header 元素一般用于 3 个地方：
+```bash
+ audio 定义音频内容
+ viedo 定义视频（video 或者 movie）
+ source 定义多媒体资源 <video> 和 <audio>
+ embed 定义嵌入的内容，比如插件
+ track 为诸如 <video> 和 <audio> 元素之类的媒介规定外部文本轨道
+```
 
-### 页面头部：
+## 2. 新增表单元素
 
-如网站名称、页面 LOGO、顶部导航、介绍信息等。
+```
+datalist	定义选项列表。请与 input 元素配合使用该元素，来定义 input 可能的值。
+keygen	  规定用于表单的密钥对生成器字段
+output	  定义不同类型的输出，比如脚本的输出
 
-### 文章头部（article 元素）：
+```
 
-文章标题、meta 信息（一般指作者、点赞数、评论数）。
+## 3. 新增的语义和结构元素
 
-### 区块头部（section 元素）：
+```
+article	定义页面独立的内容区域
+aside	定义页面的侧边栏内容
+bdi	允许您设置一段文本，使其脱离其父元素的文本方向设置
+command	定义命令按钮，比如单选按钮、复选框或按钮
+details	用于描述文档或文档某个部分的细节
+dialog	定义对话框，比如提示框
+summary	标签包含 details 元素的标题
+figure	规定独立的流内容（图像、图表、照片、代码等等）
+figcaption	定义 <figure> 元素的标题
+footer	定义 section 或 document 的页脚
+header	定义了文档的头部区域
+mark	定义带有记号的文本
+meter	定义度量衡。仅用于已知最大和最小值的度量
+nav	定义导航链接的部分
+progress	定义任何类型的任务的进度
+ruby	定义 ruby 注释（中文注音或字符）
+rt	定义字符（中文注音或字符）的解释或发音
+rp	在 ruby 注释中使用，定义不支持 ruby 元素的浏览器所显示的内容
+section	定义文档中的节（section、区段）
+time	定义日期或时间
+wbr	规定在文本中的何处适合添加换行符
+```
 
-标题。
+## 4. canvas 标签
 
-## nav
+```
+canvas	标签定义图形，比如图表和其他图像。该标签基于 JavaScript 的绘图 API
+```
 
-在 HTML5 中，nav 元素一般用于 3 个地方：
+## 5. HTML5 废弃的元素
 
-### 顶部导航：
-
-nav 元素既可以放到 header 元素内部，也可以放到 header 元素外部。
-
-### 侧栏导航。
-
-### 分页导航。
-
-## article
-
-在 HTML5 中，article 元素一般只会用于一个地方：文章内容部分。
-
-可以把 article 看成一个独立的部分，它内部可以包含标题以及其他部分。也就是说，article 元素内部可以包含 header 元素、section 元素和 footer 元素等。
-
-## aside
-
-在 HTML5 中，aside 元素一般用于表示跟周围区块相关的内容，正确地使用 aside 元素，主要取决于它的使用位置，我们大体可以分为以下两种情况：
-
-如果 aside 元素放在 article 元素或 section 元素之中，则 aside 内容必须与 article 内容或 section 内容紧密相关。
-如果 aside 元素放在 article 元素或 section 元素之外，则 aside 内容应该是与整个页面相关的，比如相关文章、相关链接、相关广告等。
-
-## section
-
-在 HTML5 中，section 元素一般用于某一个需要标题内容的区块。如果页面某个区块不需要标题，直接使用 div 元素就可以了。如果需要标题，则建议使用 section 元素。
-
-HTML5 标准建议，section 元素内部必须带有标题，也就是说，section 元素内部必须带有一个 header 元素。
-
-## footer
-
-### 在 HTML5 中，footer 元素一般用于两个地方：
-
-一个是“页面底部”：一般包含友情链接、版权声明、备案信息等。
-另一个是“文章底部”：footer 元素一般包含“上一篇/下一篇导航”“文章分类”“发布信息”等。
-表单元素
+```
+<acronym>
+<applet>
+<basefont>
+<big>
+<center>
+<dir>
+<font>
+<frame>
+<frameset>
+<noframes>
+<strike>
+<tt>
+```

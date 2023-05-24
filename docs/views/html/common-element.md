@@ -6,16 +6,51 @@ categories:
   - html
 tags:
   - html
+  - 标签元素
 ---
 
-常用元素如下
+## 常用元素如下
 
-## div
+### 1. div
 
-## span
+```html
+<div>这是div!</div>
+<!-- 效果如下 -->
+```
 
-## a
+<div>这是div!</div>
 
-## h1~h4
+### 2. span
 
-## p
+```html
+<span>这是span</span>
+```
+
+<span>这是 span</span>
+
+### 3. a
+
+```html
+<a href="https://www.baidu.com">a标签超链接访问百度!</a>
+<!-- 效果如下 -->
+```
+
+<a href="https://www.baidu.com">a 标签超链接访问百度!</a>
+
+### 4. h1
+
+```html
+<h1>这是h1</h1>
+<!-- 效果如下 -->
+```
+
+<h1>这是h1</h1>
+
+### 5. p
+
+```html
+<p>这是p</p>
+<!-- 效果如下 -->
+```
+
+<p>这是p</p>
