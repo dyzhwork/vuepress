@@ -1,5 +1,6 @@
 module.exports = {
   navBarlist: {
+    // 前端相关
     front_end_correlation: [
       { text: '纯HTML', items: [{ text: 'HTML5', link: '/html/' }] },
       { text: '纯CSS', items: [{ text: 'CSS3', link: '/css/' }] },
@@ -12,6 +13,7 @@ module.exports = {
         ]
       }
     ],
+    // 后端相关
     back_end_correlation: [
       {
         text: 'NodeJS',
@@ -23,6 +25,7 @@ module.exports = {
       },
       { text: 'API', items: [{ text: 'apifox', link: '/api/' }] }
     ],
+    // Git相关
     git_correlation: [
       { text: 'Git下载安装', link: '/git/git-install' },
       { text: 'Git有必要配置', link: '/git/git-config' },
