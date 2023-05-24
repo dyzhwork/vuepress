@@ -7,7 +7,7 @@ module.exports = {
       {
         text: 'JavaScript',
         items: [
-          { text: 'ES5~ES6+', link: '/views/javascript/' },
+          { text: 'JS', link: '/views/javascript/' },
           { text: 'Canvas', link: '/views/canvas/' },
           { text: 'Echarts', link: '/views/echarts/' }
         ]
@@ -51,12 +51,12 @@ module.exports = {
     ],
     javascript: [
       {
-        title: 'ES5',
+        title: 'JS的前半生',
         sidebarDepath: 2,
         children: [{ title: '原生事件', path: '/views/javascript/ES5/origin-event' }]
       },
       {
-        title: 'ES6++',
+        title: 'ES6后半世',
         sidebarDepath: 2,
         children: [{ title: '原生事件', path: '/views/javascript/ES6/origin-event' }]
       }
