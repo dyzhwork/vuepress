@@ -7,7 +7,7 @@ module.exports = {
       {
         text: 'JavaScript',
         items: [
-          { text: 'JavaScript', link: '/views/javascript/' },
+          { text: 'ES5~ES6+', link: '/views/javascript/' },
           { text: 'Canvas', link: '/views/canvas/' },
           { text: 'Echarts', link: '/views/echarts/' }
         ]
@@ -51,9 +51,14 @@ module.exports = {
     ],
     javascript: [
       {
-        title: '操作标签元素',
+        title: 'ES5',
         sidebarDepath: 2,
-        children: [{ title: '原生事件', path: '/views/javascript/origin-event' }]
+        children: [{ title: '原生事件', path: '/views/javascript/ES5/origin-event' }]
+      },
+      {
+        title: 'ES6++',
+        sidebarDepath: 2,
+        children: [{ title: '原生事件', path: '/views/javascript/ES6/origin-event' }]
       }
     ],
     canvas: [
