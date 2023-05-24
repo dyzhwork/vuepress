@@ -100,6 +100,9 @@ module.exports = {
         sidebarDepath: 2,
         children: []
       }
+    ],
+    nodejs: [
+      { title: 'nodeJS下载', sidebarDepath: 3, path: '/views/node/node-download' },
     ]
   }
 }

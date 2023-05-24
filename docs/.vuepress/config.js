@@ -29,6 +29,7 @@ module.exports = {
       '/views/canvas/': menu.sideBarList.canvas,
       '/views/echarts/': menu.sideBarList.echarts,
       '/views/error_resolution/': menu.sideBarList.error_resolution,
+      '/views/node/': menu.sideBarList.nodejs
     }
   }
 }
