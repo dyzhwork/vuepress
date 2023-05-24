@@ -95,6 +95,7 @@ module.exports = {
         children: []
       }
     ],
+    // nodejs
     nodejs: [
       { title: '下载', sidebarDepath: 3, path: '/views/node/node-download' },
       { title: '安装', sidebarDepath: 3, path: '/views/node/node-install' },
@@ -104,6 +105,22 @@ module.exports = {
       { title: 'pnpm', sidebarDepath: 3, path: '/views/node/pnpm' },
       { title: 'yarn', sidebarDepath: 3, path: '/views/node/yarn' },
       { title: 'nrm', sidebarDepath: 3, path: '/views/node/npm-registry-manager' }
+    ],
+    // vuejs
+    vuejs: [
+      {
+        title: 'Vue脚手架搭项目',
+        sidebarDepath: 2,
+        children: [
+          { title: '传统cli命令行', path: '/views/vue/cli' },
+          { title: '高速高效Vite', path: '/views/vue/vite' }
+        ]
+      },
+      {
+        title: 'Vue前端配置代理',
+        sidebarDepath: 2,
+        children: [{ title: 'proxy配置代理', path: '/views/vue/proxy' }]
+      }
     ]
   }
 }
