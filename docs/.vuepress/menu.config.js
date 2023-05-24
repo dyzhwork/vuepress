@@ -78,6 +78,28 @@ module.exports = {
         sidebarDepath: 2,
         children: [{ title: '柱状图', path: '/echarts/chart-bar' }]
       }
+    ],
+    // 报错解决
+    error_resolution: [
+      {
+        title: '一、UI组件库',
+        sidebarDepath: 2,
+        children: [
+          { title: 'Antd-Vue', path: '/error_resolution/uicomponent/antd-vue' },
+          { title: 'element UI' },
+          { title: 'element plus' }
+        ]
+      },
+      {
+        title: '二、NPM相关报错',
+        sidebarDepath: 2,
+        children: []
+      },
+      {
+        title: '三、Linux相关',
+        sidebarDepath: 2,
+        children: []
+      }
     ]
   }
 }

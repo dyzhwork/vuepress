@@ -18,7 +18,7 @@ module.exports = {
       { text: '前端相关', items: menu.navBarlist.front_end_correlation },
       { text: '后端相关', items: menu.navBarlist.back_end_correlation },
       { text: 'Git相关', items: menu.navBarlist.git_correlation },
-      { text: '报错整理', link: '/deal-with-error/' },
+      { text: '报错解决', link: '/error_resolution/' },
       { text: '谷歌', link: 'https://google.com' }
     ],
     // 侧边栏 有四种写法,数组,数组对象,对象数组,自动生成
@@ -27,7 +27,8 @@ module.exports = {
       '/css': menu.sideBarList.css,
       '/javascript': menu.sideBarList.javascript,
       '/canvas': menu.sideBarList.canvas,
-      '/echarts': menu.sideBarList.echarts
+      '/echarts': menu.sideBarList.echarts,
+      '/error_resolution': menu.sideBarList.error_resolution
     }
   }
 }
