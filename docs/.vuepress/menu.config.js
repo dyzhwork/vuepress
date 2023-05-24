@@ -53,12 +53,23 @@ module.exports = {
       {
         title: 'JS的前半生',
         sidebarDepath: 2,
-        children: [{ title: '原生事件', path: '/views/javascript/ES5/origin-event' }]
+        children: [
+          { title: '获取元素', path: '/views/javascript/ES5/get-element' },
+          { title: '事件监听', path: '/views/javascript/ES5/event-listen' },
+          { title: '实现防抖', path: '/views/javascript/ES5/anti-shaking' },
+          { title: '实现节流', path: '/views/javascript/ES5/throttling' },
+          { title: '图片懒加载', path: '/views/javascript/ES5/img-lazy-load' }
+        ]
       },
       {
         title: 'ES6后半世',
         sidebarDepath: 2,
-        children: [{ title: '原生事件', path: '/views/javascript/ES6/origin-event' }]
+        children: [
+          { title: '操作字符串', path: '/views/javascript/ES6/string' },
+          { title: '操作对象', path: '/views/javascript/ES6/object' },
+          { title: '操作数组', path: '/views/javascript/ES6/array' },
+          { title: '高阶函数', path: '/views/javascript/ES6/higher-order-function' }
+        ]
       }
     ],
     canvas: [
