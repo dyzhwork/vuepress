@@ -18,17 +18,17 @@ module.exports = {
       { text: '前端相关', items: menu.navBarlist.front_end_correlation },
       { text: '后端相关', items: menu.navBarlist.back_end_correlation },
       { text: 'Git相关', items: menu.navBarlist.git_correlation },
-      { text: '报错解决', link: '/error_resolution/' },
+      { text: '报错解决', link: '/views/error_resolution/' },
       { text: '谷歌', link: 'https://google.com' }
     ],
     // 侧边栏 有四种写法,数组,数组对象,对象数组,自动生成
     sidebar: {
-      '/html': menu.sideBarList.html,
-      '/css': menu.sideBarList.css,
-      '/javascript': menu.sideBarList.javascript,
-      '/canvas': menu.sideBarList.canvas,
-      '/echarts': menu.sideBarList.echarts,
-      '/error_resolution': menu.sideBarList.error_resolution
+      '/views/html/': menu.sideBarList.html,
+      '/views/css/': menu.sideBarList.css,
+      '/views/javascript/': menu.sideBarList.javascript,
+      '/views/canvas/': menu.sideBarList.canvas,
+      '/views/echarts/': menu.sideBarList.echarts,
+      '/views/error_resolution/': menu.sideBarList.error_resolution,
     }
   }
 }
