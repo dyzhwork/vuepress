@@ -50,8 +50,8 @@ module.exports = {
         title: '装扮标签元素',
         sidebarDepath: 2,
         children: [
-          { title: '一、CSS语法', path: '/css/css-syntactic' },
-          { title: '二、CSS选择器', path: '/css/css-selector' }
+          { title: '一、CSS语法', path: '/views/css/css-syntactic' },
+          { title: '二、CSS选择器', path: '/views/css/css-selector' }
         ]
       }
     ],
@@ -59,7 +59,7 @@ module.exports = {
       {
         title: '操作标签元素',
         sidebarDepath: 2,
-        children: [{ title: '原生事件', path: '/javascript/origin-event' }]
+        children: [{ title: '原生事件', path: '/views/javascript/origin-event' }]
       }
     ],
     canvas: [
@@ -67,8 +67,8 @@ module.exports = {
         title: 'canvas绘图API',
         sidebarDepath: 2,
         children: [
-          { title: '小球碰撞回弹效果', path: '/canvas/pelletcollision' },
-          { title: '两个小球连接运动效果', path: '/canvas/kinematicconnection' }
+          { title: '小球碰撞回弹效果', path: '/views/canvas/pelletcollision' },
+          { title: '两个小球连接运动效果', path: '/views/canvas/kinematicconnection' }
         ]
       }
     ],
@@ -76,7 +76,7 @@ module.exports = {
       {
         title: 'Echarts数据可视化',
         sidebarDepath: 2,
-        children: [{ title: '柱状图', path: '/echarts/chart-bar' }]
+        children: [{ title: '柱状图', path: '/views/echarts/chart-bar' }]
       }
     ],
     // 报错解决
