@@ -113,14 +113,14 @@ module.exports = {
     ],
     // nodejs
     nodejs: [
-      { title: '下载', sidebarDepath: 3, path: '/views/node/node-download' },
-      { title: '安装', sidebarDepath: 3, path: '/views/node/node-install' },
-      { title: 'nvm', sidebarDepath: 3, path: '/views/node/node-version-manage' },
-      { title: '配置', sidebarDepath: 3, path: '/views/node/node-config' },
-      { title: 'npm', sidebarDepath: 3, path: '/views/node/npm' },
-      { title: 'pnpm', sidebarDepath: 3, path: '/views/node/pnpm' },
-      { title: 'yarn', sidebarDepath: 3, path: '/views/node/yarn' },
-      { title: 'nrm', sidebarDepath: 3, path: '/views/node/npm-registry-manager' }
+      { title: '下载NodeJS', sidebarDepath: 3, path: '/views/node/node-download' },
+      { title: '安装NodeJS', sidebarDepath: 3, path: '/views/node/node-install' },
+      { title: 'nvm管理NodeJS', sidebarDepath: 3, path: '/views/node/node-version-manage' },
+      { title: '相关环境配置', sidebarDepath: 3, path: '/views/node/node-config' },
+      { title: 'npm包管理器', sidebarDepath: 3, path: '/views/node/npm' },
+      { title: 'pnpm高性能包管理器', sidebarDepath: 3, path: '/views/node/pnpm' },
+      { title: 'yarn包管理器', sidebarDepath: 3, path: '/views/node/yarn' },
+      { title: 'nrm源管理器', sidebarDepath: 3, path: '/views/node/npm-registry-manager' }
     ],
     // vuejs
     vuejs: [
