@@ -53,7 +53,7 @@ $ git --version
 
 在 Windows 平台上安装 Git 同样轻松，有个叫做 msysGit 的项目提供了安装包，可以到 GitHub 的页面上下载 exe 安装文件并运行：
 
-安装包下载地址：[https://gitforwindows.org/](https://gitforwindows.org/)
+安装包下载地址：[https://git-scm.com/download/win](https://git-scm.com/download/win)
 
 官网慢，可以用国内的镜像：[https://npm.taobao.org/mirrors/git-for-windows/](https://npm.taobao.org/mirrors/git-for-windows/)。
 
