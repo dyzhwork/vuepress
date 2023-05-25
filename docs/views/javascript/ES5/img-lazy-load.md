@@ -13,6 +13,15 @@ tags:
 
 如果网站上一次性加载大量的图片,势必会让用户体验非常糟糕,原因很简单,因为加载图片需要消耗带宽资源,而且加载不想查看的图片更是浪费资源。因此给图片进行懒加载是非常有必要的。
 
+**不出意外**
+你的项目某个页面一点开所有图片立马加载,就像这样,页面 左边红框 15 张图片在打开页面即刻加载,如右边红框所示。
+![即刻加载所有图片](~@pub/image/javascript/js002.png)
+
+**但是**我想让他按需加载,也即是到了图片所在区域才开始加载,就像下图这样,如果没有到图片区域,只加载相关 logo 等必须 图片。
+![按实际查看加载所有图片](~@pub/image/javascript/js003.png)
+**最终要的效果就是下图这样**图片出现在可视区域再加载图片,这大概就是图片懒加载的简单解释。
+![最终要的效果](~@pub/image/javascript/js004.gif)
+
 目前流行的做法是滚动动态加载，也就是说显示在屏幕之外的图片默认不加载，随着页面的滚动，图片进入了显示的范围，则触发图片的加载显示。
 
 :::tip 这样做的好处，一是页面加载速度快，二是节省流量。
@@ -114,3 +123,70 @@ options 是构造函数的第二个参数，是一个对象的形式，它主要
 - EleOb.disconnect()：该方法用于关闭观察器。
 
 ## 五、代码实现图片懒加载
+
+<LazyLoadImg/>
+
+:::tip 完整代码见下方
+:::
+
+```vue
+<template>
+  <div class="LazyLoadImg">
+    <!-- 图片懒加载,循环渲染15张照片 -->
+    <img
+      class="img_item"
+      :src_url="$withBase(`/image/javascript/js_lazy_load_img${item}.jpg`)"
+      v-for="item in 15"
+      :key="item"
+    />
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'LazyLoadImg',
+  data() {
+    return {
+      imgSrcList: []
+    }
+  },
+  mounted() {
+    // 获取被观察元素
+    this.imgSrcList = document.querySelectorAll('.img_item')
+    // 实例化观察器
+    const EleOb = new IntersectionObserver((entries) => {
+      // 观察元素交叉情况
+      entries.forEach((item) => {
+        if (item.intersectionRatio > 0) {
+          item.target.src = item.target.attributes[0].value
+          // 停止观察该元素
+          EleOb.unobserve(item.target)
+        }
+      })
+    })
+    // 循环元素
+    this.imgSrcList.forEach((item) => {
+      // 给元素设置动态加载图片
+      item.src = this.$withBase(`/image/loading1.gif`)
+      // 开始观察元素
+      EleOb.observe(item)
+    })
+  }
+}
+</script>
+
+<style>
+.LazyLoadImg {
+  height: 500px;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.img_item {
+  width: 100%;
+  height: 100%;
+  box-shadow: 3px 3px 5px #807e7e;
+}
+</style>
+```
