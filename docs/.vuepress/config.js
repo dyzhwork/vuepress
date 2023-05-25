@@ -10,6 +10,13 @@ module.exports = {
   markdown: {
     lineNumbers: true
   },
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@pub': '/docs/.vuepress/public'
+      }
+    }
+  },
   head: [['link', { rel: 'icon', href: '/image/panda.png' }]],
   themeConfig: {
     logo: '/image/panda.png',
