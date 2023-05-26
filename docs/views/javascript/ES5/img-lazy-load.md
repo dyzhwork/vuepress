@@ -15,12 +15,12 @@ tags:
 
 **不出意外**
 你的项目某个页面一点开所有图片立马加载,就像这样,页面 左边红框 15 张图片在打开页面即刻加载,如右边红框所示。
-![即刻加载所有图片](~@pub/image/javascript/js002.png)
+![即刻加载所有图片](https://dyzhwork.github.io/images/js/js002.png)
 
 **但是**我想让他按需加载,也即是到了图片所在区域才开始加载,就像下图这样,如果没有到图片区域,只加载相关 logo 等必须 图片。
-![按实际查看加载所有图片](~@pub/image/javascript/js003.png)
+![按实际查看加载所有图片](https://dyzhwork.github.io/images/js/js003.png)
 **最终要的效果就是下图这样**图片出现在可视区域再加载图片,这大概就是图片懒加载的简单解释。
-![最终要的效果](~@pub/image/javascript/js004.gif)
+![最终要的效果](https://dyzhwork.github.io/images/js/js004.gif)
 
 目前流行的做法是滚动动态加载，也就是说显示在屏幕之外的图片默认不加载，随着页面的滚动，图片进入了显示的范围，则触发图片的加载显示。
 
@@ -66,7 +66,7 @@ IntersectionObserver 接口提供了一种异步观察目标元素与其祖先�
 :::tip 简单说：
 使用 IntersectionObserver 接口观察一个元素，观察元素是否进入了可视区，这个可视区可以相对于视窗或者祖先元素。
 :::
-![交叉观察器](~@pub/image/javascript/js001.png)
+![交叉观察器](https://dyzhwork.github.io/images/js/js001.png)
 上图很形象的描述了元素和窗口可视区域发生交叉的过程,当元素发生进入可视区域,我们就说元素和窗口交叉了。此处将以交叉观察器实现图片懒加载。
 
 ## 四、IntersectionObserver 的使用

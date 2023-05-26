@@ -17,9 +17,9 @@ module.exports = {
       }
     }
   },
-  head: [['link', { rel: 'icon', href: '/image/panda.png' }]],
+  head: [['link', { rel: 'icon', href: 'https://dyzhwork.github.io/images/index/pandalogo.png' }]],
   themeConfig: {
-    logo: '/image/panda.png',
+    logo: '/img/panda.png',
     nav: [
       { text: '首页', link: '/' },
       { text: '前端相关', items: menu.navBarlist.front_end_correlation },
