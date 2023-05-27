@@ -65,10 +65,11 @@ module.exports = {
         title: 'ES6后半世',
         sidebarDepath: 2,
         children: [
-          { title: '操作字符串', path: '/views/javascript/ES6/string' },
-          { title: '操作对象', path: '/views/javascript/ES6/object' },
-          { title: '操作数组', path: '/views/javascript/ES6/array' },
-          { title: '高阶函数', path: '/views/javascript/ES6/higher-order-function' }
+          { title: '1. 什么是ES6', path: '/views/javascript/ES6/es6itro' },
+          { title: '2. 高阶函数', path: '/views/javascript/ES6/higher-order-function' },
+          { title: '3. 操作字符串', path: '/views/javascript/ES6/string' },
+          { title: '4. 操作对象', path: '/views/javascript/ES6/object' },
+          { title: '5. 操作数组', path: '/views/javascript/ES6/array' }
         ]
       }
     ],
