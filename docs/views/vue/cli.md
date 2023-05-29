@@ -28,11 +28,13 @@ vue create demo
 
 ![https://dyzhwork.github.io/images/vuecli/vuecli30.png](https://dyzhwork.github.io/images/vuecli/vuecli30.png)
 
-### 3. 选择预设模式（正常情况下）选择手动模式
+### 3. 正常情况下进入选择预设模式,选择手动模式
 
 ![https://dyzhwork.github.io/images/vuecli/vuecli3.png](https://dyzhwork.github.io/images/vuecli/vuecli3.png)
 
-**如果在当前目录下已经有一个同名的项目名称则会出现下图所示**
+:::tip 非正常情况下
+如果在当前目录下已经有一个同名的项目名称则会出现下图所示，可自行根据情况调整选择
+:::
 ![https://dyzhwork.github.io/images/vuecli/vuecli31.png](https://dyzhwork.github.io/images/vuecli/vuecli31.png)
 
 ### 4. 选择需要预安装的相关功能，选中红框中的内容
