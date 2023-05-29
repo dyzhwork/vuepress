@@ -1,6 +1,6 @@
 ---
-title: stylus语法
-date: 2023-05-29 09:42:36
+title: Stylus语法
+date: 2023-05-29 09:35:36
 permalink: /pages/8ccd5d/
 categories:
   - css
@@ -8,7 +8,7 @@ tags:
   - stylus
 ---
 
-## stylus 语法
+## Stylus 语法
 
 Stylus 的语法规则相对于原生 CSS 而言更加灵活和简洁，以下是一些 Stylus 的语法规则：
 

@@ -1,5 +1,5 @@
 ---
-title: sass语法
+title: Scss语法
 date: 2023-05-29 09:43:09
 permalink: /pages/728078/
 categories:
@@ -8,4 +8,4 @@ tags:
   - scss
 ---
 
-## sass 语法
+## Scss 语法

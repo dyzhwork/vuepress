@@ -1,6 +1,6 @@
 ---
-title: stylus 预处理器
-date: 2023-05-29 09:35:25
+title: Stylus相关介绍
+date: 2023-05-29 09:30:25
 permalink: /pages/16de14/
 categories:
   - css
@@ -8,7 +8,7 @@ tags:
   - stylus
 ---
 
-## 什么是 stylus
+## 什么是 Stylus
 
 :::tip 查看官方介绍
 [点击此处查看官方网站更详细的介绍](https://stylus-lang.com/)
