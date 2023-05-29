@@ -9,8 +9,12 @@ module.exports = {
       title: 'CSS基础',
       sidebarDepath: 2,
       children: [
-        { title: '一、CSS语法', path: '/views/css/css-syntactic' },
-        { title: '二、CSS选择器', path: '/views/css/css-selector' }
+        { title: '一、CSS简介', path: '/views/css/css-introduction' },
+        { title: '二、CSS语法', path: '/views/css/css-syntactic' },
+        { title: '三、CSS选择器', path: '/views/css/css-selector' },
+        { title: '四、CSS变量', path: '/views/css/css-variable' },
+        { title: '五、CSS函数', path: '/views/css/css-function' },
+        { title: '六、CSS作用域', path: '/views/css/css-scoped' }
       ]
     }
   ],
