@@ -91,9 +91,20 @@ console.log(`索引 ${index}对应的值是 ${array1.at(index)}`) // "索引 -2�
 
 返回数组中与给定索引匹配的元素。如果 index < -array.length 或 index >= array.length，则总是返回 undefined，而不会尝试访问相应的属性。
 
-Array.prototype.concat()
+### 3.2 Array.prototype.concat()
 
-Array.prototype.every()
+concat() 方法用于合并两个或多个数组。此方法不会更改现有数组，而是返回一个新数组。
+
+```js
+const array1 = ['a', 'b', 'c']
+const array2 = ['d', 'e', 'f']
+const array3 = array1.concat(array2)
+
+console.log(array3)
+// 输出: Array ["a", "b", "c", "d", "e", "f"]
+```
+
+### 3.3 Array.prototype.every()
 
 every() 方法测试一个数组内的所有元素是否都能通过指定函数的测试。它返回一个布尔值。
 
@@ -106,7 +117,7 @@ console.log(array1.every(isBelowThreshold))
 // 输出: true
 ```
 
-Array.prototype.fill()
+### 3.4 Array.prototype.fill()
 
 fill() 方法用一个固定值填充一个数组中从起始索引（默认为 0）到终止索引（默认为 array.length）内的全部元素。它返回修改后的数组。
 
@@ -125,7 +136,7 @@ console.log(array1.fill(6))
 // 输出: Array [6, 6, 6, 6]
 ```
 
-Array.prototype.filter()
+### 3.5 Array.prototype.filter()
 
 filter() 方法创建给定数组一部分的浅拷贝，其包含通过所提供函数实现的测试的所有元素。
 
@@ -138,7 +149,7 @@ console.log(result)
 // 输出: Array ["exuberant", "destruction", "present"]
 ```
 
-Array.prototype.find()
+### 3.6 Array.prototype.find()
 
 find() 方法返回数组中满足提供的测试函数的第一个元素的值。否则返回 undefined。
 
@@ -156,7 +167,7 @@ console.log(found)
 // 输出: 12
 ```
 
-Array.prototype.findIndex()
+### 3.7 Array.prototype.findIndex()
 
 findIndex() 方法返回数组中满足提供的测试函数的第一个元素的索引。若没有找到对应元素则返回 -1。
 
@@ -174,7 +185,7 @@ console.log(array1.findIndex(isLargeNumber))
 // 输出: 3
 ```
 
-Array.prototype.findLast()
+### 3.8 Array.prototype.findLast()
 
 findLast() 方法反向迭代数组，并返回满足提供的测试函数的第一个元素的值。如果没有找到对应元素，则返回 undefined。
 
@@ -205,7 +216,7 @@ console.log(found)
 // 输出: 130
 ```
 
-Array.prototype.findLastIndex()
+### 3.9 Array.prototype.findLastIndex()
 
 findLastIndex() 方法反向迭代数组，并返回满足所提供的测试函数的第一个元素的索引。若没有找到对应元素，则返回 -1。
 
@@ -221,7 +232,7 @@ console.log(array1.findLastIndex(isLargeNumber))
 // Index of element with value: 130
 ```
 
-Array.prototype.forEach()
+### 3.10 Array.prototype.forEach()
 
 forEach() 方法对数组的每个元素执行一次给定的函数。
 
@@ -235,7 +246,7 @@ array1.forEach((element) => console.log(element))
 // 输出: "c"
 ```
 
-Array.from()
+### 3.11 Array.from()
 
 Array.from() 静态方法从可迭代或类数组对象创建一个新的浅拷贝的数组实例。
 
@@ -249,7 +260,7 @@ console.log(Array.from([1, 2, 3], (x) => x + x))
 // 输出: Array [2, 4, 6]
 ```
 
-Array.prototype.includes()
+### 3.12 Array.prototype.includes()
 
 includes() 方法用来判断一个数组是否包含一个指定的值，根据情况，如果包含则返回 true，否则返回 false。
 
@@ -268,7 +279,7 @@ console.log(pets.includes('at'))
 // 输出: false
 ```
 
-Array.prototype.indexOf()
+### 3.13 Array.prototype.indexOf()
 
 indexOf() 方法返回数组中第一次出现给定元素的下标，如果不存在则返回 -1。
 
@@ -286,7 +297,7 @@ console.log(beasts.indexOf('giraffe'))
 // 输出: -1
 ```
 
-Array.isArray()
+### 3.14 Array.isArray()
 
 Array.isArray() 静态方法用于确定传递的值是否是一个 Array。
 
@@ -304,7 +315,7 @@ console.log(Array.isArray(new Int16Array([15, 33])))
 // 输出: false
 ```
 
-Array.prototype.join()
+### 3.15 Array.prototype.join()
 
 join() 方法将一个数组（或一个类数组对象）的所有元素连接成一个字符串并返回这个字符串，用逗号或指定的分隔符字符串分隔。如果数组只有一个元素，那么将返回该元素而不使用分隔符。
 
@@ -321,7 +332,7 @@ console.log(elements.join('-'))
 // 输出: "Fire-Air-Water"
 ```
 
-Array.prototype.keys()
+### 3.16 Array.prototype.keys()
 
 keys() 方法返回一个新的数组迭代器 (en-US)对象，其中包含数组中每个索引的键。
 
@@ -338,7 +349,7 @@ for (const key of iterator) {
 // 输出: 2
 ```
 
-Array.prototype.lastIndexOf()
+### 3.17 Array.prototype.lastIndexOf()
 
 lastIndexOf() 方法返回数组中给定元素最后一次出现的索引，如果不存在则返回 -1。该方法从 fromIndex 开始向前搜索数组。
 
@@ -352,7 +363,7 @@ console.log(animals.lastIndexOf('Tiger'))
 // 输出: 1
 ```
 
-Array.prototype.map()
+### 3.18 Array.prototype.map()
 
 map() 方法创建一个新数组，这个新数组由原数组中的每个元素都调用一次提供的函数后的返回值组成。
 
@@ -366,7 +377,7 @@ console.log(map1)
 // 输出: Array [2, 8, 18, 32]
 ```
 
-Array.of()
+### 3.19 Array.of()
 
 Array.of() 静态方法通过可变数量的参数创建一个新的 Array 实例，而不考虑参数的数量或类型。
 
@@ -378,7 +389,7 @@ console.log(Array.of())
 // 输出: Array []
 ```
 
-Array.prototype.pop()
+### 3.20 Array.prototype.pop()
 
 pop() 方法从数组中删除最后一个元素，并返回该元素的值。此方法会更改数组的长度。
 
@@ -397,7 +408,7 @@ console.log(plants)
 // 输出: Array ["broccoli", "cauliflower", "cabbage"]
 ```
 
-Array.prototype.push()
+### 3.21 Array.prototype.push()
 
 push() 方法将指定的元素添加到数组的末尾，并返回新的数组长度。
 
@@ -415,7 +426,7 @@ console.log(animals)
 // 输出: Array ["pigs", "goats", "sheep", "cows", "chickens", "cats", "dogs"]
 ```
 
-Array.prototype.reduce()
+### 3.22 Array.prototype.reduce()
 
 reduce() 方法对数组中的每个元素按序执行一个提供的 reducer 函数，每一次运行 reducer 会将先前元素的计算结果作为参数传入，最后将其结果汇总为单个返回值。
 
@@ -437,7 +448,7 @@ console.log(sumWithInitial)
 // 输出: 10
 ```
 
-Array.prototype.reverse()
+### 3.23 Array.prototype.reverse()
 
 reverse() 方法就地反转数组中的元素，并返回同一数组的引用。数组的第一个元素会变成最后一个，数组的最后一个元素变成第一个。换句话说，数组中的元素顺序将被翻转，变为与之前相反的方向。
 
@@ -457,7 +468,7 @@ console.log('array1:', array1)
 // 输出: "array1:" Array ["three", "two", "one"]
 ```
 
-Array.prototype.shift()
+### 3.24 Array.prototype.shift()
 
 shift() 方法从数组中删除第一个元素，并返回该元素的值。此方法更改数组的长度。
 
@@ -473,7 +484,7 @@ console.log(firstElement)
 // 输出: 1
 ```
 
-Array.prototype.slice()
+### 3.25 Array.prototype.slice()
 
 slice() 方法返回一个新的数组对象，这一对象是一个由 start 和 end 决定的原数组的浅拷贝（包括 start，不包括 end），其中 start 和 end 代表了数组元素的索引。原始数组不会被改变。
 
@@ -499,7 +510,7 @@ console.log(animals.slice())
 // 输出: Array ["ant", "bison", "camel", "duck", "elephant"]
 ```
 
-Array.prototype.some()
+### 3.26 Array.prototype.some()
 
 some() 方法测试数组中是否至少有一个元素通过了由提供的函数实现的测试。如果在数组中找到一个元素使得提供的函数返回 true，则返回 true；否则返回 false。它不会修改数组。
 
@@ -513,7 +524,7 @@ console.log(array.some(even))
 // 输出: true
 ```
 
-Array.prototype.sort()
+### 3.27 Array.prototype.sort()
 
 sort() 方法就地对数组的元素进行排序，并返回对相同数组的引用。默认排序是将元素转换为字符串，然后按照它们的 UTF-16 码元值升序排序。
 
@@ -533,7 +544,7 @@ console.log(array1)
 // 输出: Array [1, 100000, 21, 30, 4]
 ```
 
-Array.prototype.splice()
+### 3.28 Array.prototype.splice()
 
 splice() 方法通过移除或者替换已存在的元素和/或添加新元素就地改变一个数组的内容。
 
@@ -552,7 +563,7 @@ console.log(months)
 // 输出: Array ["Jan", "Feb", "March", "April", "May"]
 ```
 
-Array.prototype.toString()
+### 3.29 Array.prototype.toString()
 
 toString() 方法返回一个字符串，表示指定的数组及其元素。
 
@@ -563,7 +574,7 @@ console.log(array1.toString())
 // 输出: "1,2,a,1a"
 ```
 
-Array.prototype.unshift()
+### 3.30 Array.prototype.unshift()
 
 unshift() 方法将指定元素添加到数组的开头，并返回数组的新长度。
 
@@ -577,7 +588,7 @@ console.log(array1)
 // 输出: Array [4, 5, 1, 2, 3]
 ```
 
-Array.prototype.values()
+### 3.31 Array.prototype.values()
 
 values() 方法返回一个新的数组迭代器 (en-US)对象，该对象迭代数组中每个元素的值。
 
@@ -594,7 +605,7 @@ for (const value of iterator) {
 // 输出: "c"
 ```
 
-Array.prototype.with()
+### 3.32 Array.prototype.with()
 
 Array 实例的 with() 方法是使用方括号表示法修改指定索引值的复制方法版本。它会返回一个新数组，其指定索引处的值会被新值替换。
 
@@ -611,19 +622,31 @@ console.log(arr.with(2, 6).map((x) => x ** 2)) // [1, 4, 36, 16, 25]
 
 ## 四、数组不常用方法
 
-Array.prototype`[`@@iterator`]`()
-Array.prototype.copyWithin()
-Array.prototype.entries()
-Array.prototype.flat()
-Array.prototype.flatMap()
-Array.fromAsync()实验性
-Array.prototype.group()实验性
-Array.prototype.groupToMap()实验性
-Array.prototype.reduceRight()
-Array.prototype.toLocaleString()
-Array.prototype.toReversed()
-Array.prototype.toSorted()
-Array.prototype.toSpliced()
+### 4.1 Array.prototype`[`@@iterator`]`()
+
+### 4.2 Array.prototype.copyWithin()
+
+### 4.3 Array.prototype.entries()
+
+### 4.4 Array.prototype.flat()
+
+### 4.5 Array.prototype.flatMap()
+
+### 4.6 Array.fromAsync()实验性
+
+### 4.7 Array.prototype.group()实验性
+
+### 4.8 Array.prototype.groupToMap()实验性
+
+### 4.9 Array.prototype.reduceRight()
+
+### 4.10 Array.prototype.toLocaleString()
+
+### 4.11 Array.prototype.toReversed()
+
+### 4.12 Array.prototype.toSorted()
+
+### 4. Array.prototype.toSpliced()
 
 <!--
 ### 3.1 Array.from && newSet()
