@@ -16,6 +16,15 @@ module.exports = {
         { title: '五、CSS函数', path: '/views/css/css-function' },
         { title: '六、CSS作用域', path: '/views/css/css-scoped' }
       ]
+    },
+    {
+      title: 'PostCSS-CSS转换工具',
+      sidebarDepath: 2,
+      children: [
+        { title: '一、PostCSS简介', path: '/views/css/postcss/introduction' },
+        { title: '二、PostCSS语法', path: '/views/css/postcss/syntactic' }
+      ]
+    },
     }
   ],
   javascript: [
