@@ -41,6 +41,14 @@ module.exports = {
         { title: '二、Scss语法', path: '/views/css/scss/syntactic' }
       ]
     },
+    {
+      title: 'Sass预处理',
+      sidebarDepath: 2,
+      children: [
+        { title: '一、Sass简介', path: '/views/css/sass/introduction' },
+        { title: '二、Sass语法', path: '/views/css/sass/syntactic' }
+      ]
+    },
     }
   ],
   javascript: [
