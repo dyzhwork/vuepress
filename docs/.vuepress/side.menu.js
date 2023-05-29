@@ -49,6 +49,13 @@ module.exports = {
         { title: '二、Sass语法', path: '/views/css/sass/syntactic' }
       ]
     },
+    {
+      title: 'Stylus预处理',
+      sidebarDepath: 2,
+      children: [
+        { title: '一、Stylus简介', path: '/views/css/stylus/introduction' },
+        { title: '二、Stylus语法', path: '/views/css/stylus/syntactic' }
+      ]
     }
   ],
   javascript: [
