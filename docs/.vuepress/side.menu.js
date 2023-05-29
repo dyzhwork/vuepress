@@ -33,6 +33,14 @@ module.exports = {
         { title: '二、Less语法', path: '/views/css/less/syntactic' }
       ]
     },
+    {
+      title: 'Scss预处理',
+      sidebarDepath: 2,
+      children: [
+        { title: '一、Scss简介', path: '/views/css/scss/introduction' },
+        { title: '二、Scss语法', path: '/views/css/scss/syntactic' }
+      ]
+    },
     }
   ],
   javascript: [
