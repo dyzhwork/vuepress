@@ -25,6 +25,14 @@ module.exports = {
         { title: '二、PostCSS语法', path: '/views/css/postcss/syntactic' }
       ]
     },
+    {
+      title: 'Less预处理',
+      sidebarDepath: 2,
+      children: [
+        { title: '一、Less简介', path: '/views/css/less/introduction' },
+        { title: '二、Less语法', path: '/views/css/less/syntactic' }
+      ]
+    },
     }
   ],
   javascript: [
