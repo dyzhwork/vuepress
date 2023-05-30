@@ -142,6 +142,7 @@ module.exports = {
         { title: '定义方法', path: '/views/vue/method' },
         { title: '使用指令', path: '/views/vue/directive' },
         { title: '自定义属性', path: '/views/vue/custom-prop' },
+        { title: '插槽', path: '/views/vue/slot' },
         { title: '自定义指令', path: '/views/vue/custom-directive' },
         { title: '计算属性', path: '/views/vue/computed' },
         { title: '监听器', path: '/views/vue/watch' },
