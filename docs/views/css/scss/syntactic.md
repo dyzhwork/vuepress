@@ -8,4 +8,26 @@ tags:
   - scss
 ---
 
-## Scss 语法
+## Scss 变量
+
+```css
+$color: #f10;
+.box {
+  background-color: $color;
+}
+.box2 {
+  color: $color;
+}
+```
+
+## Scss 循环
+
+## Scss 函数-混入
+
+## Scss 嵌套
+
+## Scss 继承
+
+## Scss 导入
+
+## Scss 作用域
