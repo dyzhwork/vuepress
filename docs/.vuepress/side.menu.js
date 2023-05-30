@@ -135,6 +135,21 @@ module.exports = {
       ]
     },
     {
+      title: 'Vue相关API',
+      sidebarDepath: 2,
+      children: [
+        { title: '定义数据', path: '/views/vue/data' },
+        { title: '定义方法', path: '/views/vue/method' },
+        { title: '使用指令', path: '/views/vue/directive' },
+        { title: '自定义属性', path: '/views/vue/custom-prop' },
+        { title: '自定义指令', path: '/views/vue/custom-directive' },
+        { title: '计算属性', path: '/views/vue/computed' },
+        { title: '监听器', path: '/views/vue/watch' },
+        { title: '生命周期', path: '/views/vue/life-cycle' },
+        { title: '过渡动画', path: '/views/vue/transition-animate' }
+      ]
+    },
+    {
       title: 'Vue前端配置代理',
       sidebarDepath: 2,
       children: [{ title: 'proxy配置代理', path: '/views/vue/proxy' }]
