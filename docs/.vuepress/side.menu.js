@@ -135,19 +135,23 @@ module.exports = {
       ]
     },
     {
-      title: 'Vue相关API',
+      title: 'Vue相关常用API',
       sidebarDepath: 2,
       children: [
         { title: '定义数据', path: '/views/vue/data' },
         { title: '定义方法', path: '/views/vue/method' },
         { title: '使用指令', path: '/views/vue/directive' },
         { title: '自定义属性', path: '/views/vue/custom-prop' },
+        { title: '组件注册', path: '/views/vue/component' },
         { title: '插槽', path: '/views/vue/slot' },
         { title: '自定义指令', path: '/views/vue/custom-directive' },
         { title: '计算属性', path: '/views/vue/computed' },
         { title: '监听器', path: '/views/vue/watch' },
         { title: '生命周期', path: '/views/vue/life-cycle' },
-        { title: '过渡动画', path: '/views/vue/transition-animate' }
+        { title: '过渡动画', path: '/views/vue/transition-animate' },
+        { title: 'Vue路由', path: '/views/vue/vue-router' },
+        { title: 'VueX状态管理', path: '/views/vue/vuex' },
+        { title: 'Pinia状态管理', path: '/views/vue/pinia' }
       ]
     },
     {
