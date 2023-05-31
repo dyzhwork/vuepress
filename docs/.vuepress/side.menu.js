@@ -148,14 +148,26 @@ module.exports = {
         { title: '计算属性', path: '/views/vue/computed' },
         { title: '监听器', path: '/views/vue/watch' },
         { title: '生命周期', path: '/views/vue/life-cycle' },
-        { title: '过渡动画', path: '/views/vue/transition-animate' },
-        { title: 'Vue路由', path: '/views/vue/vue-router' },
-        { title: 'VueX状态管理', path: '/views/vue/vuex' },
-        { title: 'Pinia状态管理', path: '/views/vue/pinia' }
+        { title: '过渡动画', path: '/views/vue/transition-animate' }
       ]
     },
     {
-      title: 'Vue前端配置代理',
+      title: 'Vue-Router路由',
+      sidebarDepath: 2,
+      children: [{ title: 'Vue-Router', path: '/views/vue/vue-router' }]
+    },
+    {
+      title: 'VueX状态管理',
+      sidebarDepath: 2,
+      children: [{ title: 'vuex集中式状态管理', path: '/views/vue/vuex' }]
+    },
+    {
+      title: 'Pinia状态管理',
+      sidebarDepath: 2,
+      children: [{ title: 'pinia下一代状态管理', path: '/views/vue/pinia' }]
+    },
+    {
+      title: 'Vue前端配置代理Proxy',
       sidebarDepath: 2,
       children: [{ title: 'proxy配置代理', path: '/views/vue/proxy' }]
     },
