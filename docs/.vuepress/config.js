@@ -27,7 +27,7 @@ module.exports = {
       { text: 'Git相关', items: menu.navBarlist.git_correlation },
       { text: '报错解决', link: '/views/error_resolution/' },
       { text: 'Vue前端框架', link: '/views/vue/' },
-      { text: '谷歌', link: 'https://google.com' }
+      { text: '学习VuePress', link: 'https://google.com' }
     ],
     // 侧边栏 有四种写法,数组,数组对象,对象数组,自动生成
     sidebar: {
