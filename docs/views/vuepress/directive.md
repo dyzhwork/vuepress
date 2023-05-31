@@ -13,7 +13,7 @@ tags:
 在客户端应用的增强配置文件`enhanceApp.js`文件中就可以自定义相关配置,自定义指令模板如下，可自行根据实际情况进行相关操作：
 
 ```js
-// 客户端应用的增强
+// 客户端应用的增强基于Vue2.x版本
 export default ({ Vue, options, router, siteData }) => {
   // 注册一个全局指令,示例
   Vue.directive('my-directive', {
