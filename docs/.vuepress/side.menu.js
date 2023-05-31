@@ -167,5 +167,16 @@ module.exports = {
         { title: 'TS的作用是什么', path: '/views/vue/ts/ts-function' }
       ]
     }
+  ],
+  // vuepress
+  vuepress: [
+    {
+      title: '相关配置',
+      sidebarDepath: 2,
+      children: [
+        { title: '客户端应用的增强配置文件', path: '/views/vuepress/enhanceApp' },
+        { title: '如何自定义全局指令', path: '/views/vuepress/directive' }
+      ]
+    }
   ]
 }
