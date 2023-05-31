@@ -23,12 +23,5 @@ module.exports = {
       ]
     },
     { text: 'API管理', items: [{ text: 'apifox', link: '/views/apifox/' }] }
-  ],
-  // Git相关
-  git_correlation: [
-    { text: 'Git下载安装', link: '/views/git/git-install' },
-    { text: 'Git有必要配置', link: '/views/git/git-config' },
-    { text: 'Git的可视化', link: '/views/git/git-visualization' },
-    { text: 'Git相关报错', link: '/views/git/git-handle-error' }
   ]
 }
