@@ -169,7 +169,7 @@ module.exports = {
     {
       title: 'Vue前端配置代理Proxy',
       sidebarDepath: 2,
-      children: [{ title: 'proxy配置代理', path: '/views/vue/proxy' }]
+      children: [{ title: 'proxy配置代理', path: '/views/vue/proxy/proxy' }]
     },
     {
       title: 'Vue中如何使用TS',
