@@ -11,7 +11,7 @@ tags:
 ## 1. html 是什么?
 
 HTML 代表超文本标记语言（`Hyper Text Markup Language`），是一种用于创建网页的标准标记语言。通过使用 HTML，开发人员可以定义网页上的不同类型的内容，例如文本、图像、链接、视频和音频等，并为它们添加结构和样式。HTML 由一系列标签组成，比如:`div,span,a,p,h1~h6` 等,这些标记向 Web 浏览器指示如何显示页面的不同部分。
-![html示意图](https://dyzhwork.github.io/images/html/html001.png)
+<img v-lazy="'https://dyzhwork.github.io/images/html/html001.png'"/>
 
 ```
 <!DOCTYPE html> 声明为 HTML5 文档
