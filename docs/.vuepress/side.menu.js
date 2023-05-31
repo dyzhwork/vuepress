@@ -130,8 +130,8 @@ module.exports = {
       title: 'Vue脚手架搭项目',
       sidebarDepath: 2,
       children: [
-        { title: '传统cli命令行', path: '/views/vue/cli' },
-        { title: '高速高效Vite', path: '/views/vue/vite' }
+        { title: '传统cli命令行', path: '/views/vue/scaffold/cli' },
+        { title: '高速高效Vite', path: '/views/vue/scaffold/vite' }
       ]
     },
     {
