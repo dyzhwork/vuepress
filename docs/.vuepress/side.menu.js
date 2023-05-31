@@ -154,17 +154,17 @@ module.exports = {
     {
       title: 'Vue-Router路由',
       sidebarDepath: 2,
-      children: [{ title: 'Vue-Router', path: '/views/vue/vue-router' }]
+      children: [{ title: 'Vue-Router', path: '/views/vue/vue-router/vue-router' }]
     },
     {
       title: 'VueX状态管理',
       sidebarDepath: 2,
-      children: [{ title: 'vuex集中式状态管理', path: '/views/vue/vuex' }]
+      children: [{ title: 'vuex集中式状态管理', path: '/views/vue/vuex/vuex' }]
     },
     {
       title: 'Pinia状态管理',
       sidebarDepath: 2,
-      children: [{ title: 'pinia下一代状态管理', path: '/views/vue/pinia' }]
+      children: [{ title: 'pinia下一代状态管理', path: '/views/vue/pinia/pinia' }]
     },
     {
       title: 'Vue前端配置代理Proxy',
