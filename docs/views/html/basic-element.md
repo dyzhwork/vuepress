@@ -10,7 +10,7 @@ tags:
 
 作为制作 Web 页的基础，HTML 是 Web 信息出版的标准语言。网站建设可以利用 HTML 控制文档的总体和局部的结构，HTML 通过把标记和属性插入到文本中来控制 Web 页个浏览器巾的显示形式。尽管现在己没有许多“所见即所得”的编辑工具，但读者要想制作出色特色的 Web 页，仍然必须熟悉 HTML 语言。这里网站建设就跟大家一起温习下 HTML 相关的元素。
 
-[![html示意图](https://dyzhwork.github.io/images/html/html002.png)](https://www.xuanfengge.com/funny/html5/element/)
+[![html示意图](https://dyzhwork.github.io/images/Html/html002.png)](https://www.xuanfengge.com/funny/html5/element/)
 
 ### Root element 根元素
 

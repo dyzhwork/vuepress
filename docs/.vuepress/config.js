@@ -17,7 +17,7 @@ module.exports = {
       }
     }
   },
-  head: [['link', { rel: 'icon', href: 'https://dyzhwork.github.io/images/index/pandalogo.png' }]],
+  head: [['link', { rel: 'icon', href: 'https://dyzhwork.github.io/images/Index/pandalogo.png' }]],
   themeConfig: {
     logo: '/img/panda.png',
     nav: [

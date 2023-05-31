@@ -14,10 +14,10 @@ tags:
 :::
 
 1. 点击前往[官方网站下载](https://nodejs.org/en),[https://nodejs.org/en](https://nodejs.org/en)选择适合自己的系统及版本下载即可
-   <img v-lazy="'https://dyzhwork.github.io/images/node/node001.png'"/>
+   <img v-lazy="'https://dyzhwork.github.io/images/Node/node001.png'"/>
 
 :::tip 网络不好可以点击下方中文网站选择长期维护版(LTS)下载即可,如需其他版本,点击 导航栏处下载选择下载
 :::
 
 2. 点击[中文版网站下载](https://nodejs.org/zh-cn)[https://nodejs.org/zh-cn](https://nodejs.org/zh-cn) 选择适合自己的系统及版本下载即可
-   <img v-lazy="'https://dyzhwork.github.io/images/node/node002.png'"/>
+   <img v-lazy="'https://dyzhwork.github.io/images/Node/node002.png'"/>

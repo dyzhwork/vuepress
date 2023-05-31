@@ -4,7 +4,7 @@ export default ({ Vue, options, router, siteData }) => {
   Vue.directive('lazy', {
     bind(el) {
       // 绑定时的处理逻辑
-      el.src = 'https://dyzhwork.github.io/images/index/loading5.gif'
+      el.src = 'https://dyzhwork.github.io/images/Index/loading5.gif'
     },
     inserted(el, binding) {
       // 插入节点时的处理逻辑

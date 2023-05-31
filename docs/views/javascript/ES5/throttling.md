@@ -40,7 +40,7 @@ CSS 实现与 JS 脚本的思维方式不同，需要从不同的角度考虑问
 :::
 `打开控制台，点击这个按钮查看->`
 <ButtonJS text='普通按钮'/>
-<img v-lazy="'https://dyzhwork.github.io/images/js/throttle001.gif'"/>
+<img v-lazy="'https://dyzhwork.github.io/images/JS/throttle001.gif'"/>
 
 ### 1. 首先定义一个关于`pointer-events`的动画，名为`throttle_by_css`
 
@@ -99,7 +99,7 @@ CSS 实现与 JS 脚本的思维方式不同，需要从不同的角度考虑问
 `打开控制台，点击这个按钮查看->`
 <ButtonJS :throttle='true' text='节流按钮'/>
 
-<img v-lazy="'https://dyzhwork.github.io/images/js/throttle002.gif'"/>
+<img v-lazy="'https://dyzhwork.github.io/images/JS/throttle002.gif'"/>
 
 ### 5. 两种情况同时对比效果
 
@@ -108,7 +108,7 @@ CSS 实现与 JS 脚本的思维方式不同，需要从不同的角度考虑问
 <ButtonJS text='普通按钮'/>
 
 <ButtonJS :throttle='true' text='节流按钮'/>
-<img v-lazy="'https://dyzhwork.github.io/images/js/throttle003.gif'"/>
+<img v-lazy="'https://dyzhwork.github.io/images/JS/throttle003.gif'"/>
 
 ## 四、方案二（采用 disabled 禁用按钮）
 

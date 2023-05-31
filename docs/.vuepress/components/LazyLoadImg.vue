@@ -3,7 +3,7 @@
     <!-- 图片懒加载 -->
     <img
       class="img_item"
-      :src_url="`https://dyzhwork.github.io/images/js/js_lazy_load_img${item}.jpg`"
+      :src_url="`https://dyzhwork.github.io/images/JS/js_lazy_load_img${item}.jpg`"
       v-for="item in 15"
       :key="item"
     />
@@ -35,7 +35,7 @@ export default {
     // 循环元素
     this.imgSrcList.forEach((item) => {
       // 给元素设置动态加载图片
-      item.src = 'https://dyzhwork.github.io/images/index/loading1.gif'
+      item.src = 'https://dyzhwork.github.io/images/Index/loading1.gif'
       // 开始观察元素
       EleOb.observe(item)
     })
