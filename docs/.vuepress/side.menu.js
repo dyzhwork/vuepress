@@ -152,7 +152,7 @@ module.exports = {
       ]
     },
     {
-      title: 'Vue-Router路由',
+      title: 'VueRouter路由',
       sidebarDepath: 2,
       children: [{ title: 'Vue-Router', path: '/views/vue/vue-router/vue-router' }]
     },
