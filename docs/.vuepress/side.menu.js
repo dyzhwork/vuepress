@@ -158,6 +158,14 @@ module.exports = {
       title: 'Vue前端配置代理',
       sidebarDepath: 2,
       children: [{ title: 'proxy配置代理', path: '/views/vue/proxy' }]
+    },
+    {
+      title: 'Vue中如何使用TS',
+      sidebarDepath: 2,
+      children: [
+        { title: '什么是TS', path: '/views/vue/ts/ts-is' },
+        { title: 'TS的作用是什么', path: '/views/vue/ts/ts-function' }
+      ]
     }
   ]
 }
