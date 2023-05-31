@@ -24,7 +24,7 @@ module.exports = {
       { text: '首页', link: '/' },
       { text: '前端相关', items: menu.navBarlist.front_end_correlation },
       { text: '后端相关', items: menu.navBarlist.back_end_correlation },
-      { text: 'Git相关', items: menu.navBarlist.git_correlation },
+      { text: 'Git相关', link: '/views/git/' },
       { text: '报错解决', link: '/views/error_resolution/' },
       { text: 'Vue前端框架', link: '/views/vue/' },
       { text: '学习VuePress', link: '/views/vuepress/' }
@@ -36,6 +36,7 @@ module.exports = {
       '/views/javascript/': menu.sideBarList.javascript,
       '/views/canvas/': menu.sideBarList.canvas,
       '/views/echarts/': menu.sideBarList.echarts,
+      '/views/git/': menu.sideBarList.git,
       '/views/error_resolution/': menu.sideBarList.error_resolution,
       '/views/node/': menu.sideBarList.nodejs,
       '/views/vue/': menu.sideBarList.vuejs,

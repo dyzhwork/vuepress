@@ -99,6 +99,34 @@ module.exports = {
       children: [{ title: '柱状图', path: '/views/echarts/chart-bar' }]
     }
   ],
+  // git侧边栏配置 // Git相关
+  git: [
+    {
+      title: 'Git下载安装',
+      sidebarDepath: 2,
+      children: [{ title: 'Git下载安装', path: '/views/git/git-install' }]
+    },
+    {
+      title: 'Git相关操作',
+      sidebarDepath: 2,
+      children: [
+        { title: 'Git有必要配置', path: '/views/git/git-config' },
+        { title: '配置改变大小写', path: '/views/git/git-change-case' },
+        { title: '配置PUSH多个仓库', path: '/views/git/git-push-many' },
+        { title: '清空远程仓库内容', path: '/views/git/git-reset-repo' }
+      ]
+    },
+    {
+      title: 'Git的可视化',
+      sidebarDepath: 2,
+      children: [{ title: 'Git的可视化', path: '/views/git/git-visualization' }]
+    },
+    {
+      title: 'Git相关报错',
+      sidebarDepath: 2,
+      children: [{ title: 'Git相关报错', path: '/views/git/git-handle-error' }]
+    }
+  ],
   // 报错解决
   error_resolution: [
     {
