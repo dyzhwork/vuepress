@@ -146,9 +146,16 @@ module.exports = {
     { title: '下载NodeJS', sidebarDepath: 3, path: '/views/node/node-download' },
     { title: '安装NodeJS', sidebarDepath: 3, path: '/views/node/node-install' },
     { title: 'nvm管理NodeJS', sidebarDepath: 3, path: '/views/node/node-version-manage' },
-    { title: '相关环境配置', sidebarDepath: 3, path: '/views/node/node-config' },
     { title: 'npm包管理器', sidebarDepath: 3, path: '/views/node/npm' },
-    { title: 'pnpm高性能包管理器', sidebarDepath: 3, path: '/views/node/pnpm' },
+    {
+      title: 'pnpm高性能包管理器',
+      sidebarDepath: 2,
+      children: [
+        { title: 'Pnpm简介', path: '/views/node/pnpm' },
+        { title: 'Pnpm安装使用', path: '/views/node/pnpm-install' },
+        { title: 'Pnpm相关配置', path: '/views/node/pnpm-config' }
+      ]
+    },
     { title: 'yarn包管理器', sidebarDepath: 3, path: '/views/node/yarn' },
     { title: 'nrm源管理器', sidebarDepath: 3, path: '/views/node/npm-registry-manager' }
   ],

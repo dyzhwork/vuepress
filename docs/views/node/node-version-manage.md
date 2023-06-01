@@ -20,7 +20,15 @@ Linux 点击[官方 Linux 版本链接](https://github.com/nvm-sh/nvm/tags)选�
 
 Windows 点击[官方 Windows 版本链接](https://github.com/coreybutler/nvm-windows/tags)选择相应版本下载
 
-### 2. 安装 nvm
+### 2. 选择自己想要的版本（以 Windows 为例）
+
+<img v-lazy="'https://dyzhwork.github.io/images/Node/Nvm/nvm001.png'" />
+
+### 3. 进入下载页面点击下载
+
+<img v-lazy="'https://dyzhwork.github.io/images/Node/Nvm/nvm002.png'" />
+
+### 4. 安装 nvm
 
 此处以 Windows 为主,双击执行程序,下一步,下一步直到最后完成即可。
 
@@ -33,7 +41,7 @@ nvm -v
 
 返回相应版本信息即代表安装成功,如 `1.1.10`,如不成功,重新点击程序安装
 
-### 3. 配置 nvm 源
+### 5. 配置 nvm 源
 
 找到 nvm 安装位置,然后用记事本打开 setting 文件在它后面输入以下代码配置镜像源
 
@@ -44,32 +52,32 @@ npm_mirror: https://npm.taobao.org/mirrors/npm/
 
 ```
 
-### 4. 使用,终端输入以下命令
+### 6. 使用,终端输入以下命令
 
 ```bash
 nvm ls                      // 看安装的所有node.js的版本
 nvm list available          // 查显示可以安装的所有node.js的版本
 ```
 
-### 5. 安装指定的 node 版本
+### 7. 安装指定的 node 版本
 
 ```bash
 nvm install 版本号 // 例如：nvm install 14.19.0
 ```
 
-### 6. 切换版本
+### 8. 切换版本
 
 ```bash
 nvm use 版本号           // 切换到使用指定的nodejs版本
 ```
 
-### 7. 检测是否切换完成
+### 9. 检测是否切换完成
 
 ```bash
 node -v
 ```
 
-### 8. nvm 的一些常用命令
+### 10. nvm 的一些常用命令
 
 ```bash
 # nvm命令行操作命令nvm
