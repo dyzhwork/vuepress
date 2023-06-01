@@ -12,6 +12,8 @@ tags:
 
 正常情况下,在开发过程中,你所写的代码文件名大小写通常会被默认忽略,也就是说,刚开始新建一个文件如:`TEST.vue`,但是后续改动成`Test.vue`,严格来说,这就是两个不同的文件,但是项目中默认 git 不会检测文件名发生变化。对于一开始就新建的文件名问题不大。但是提交了文件推送到远程再修改就有可能造成问题:导致本地代码与远程代码不一致。
 
+<img style="display:block;margin:auto;width:50%" v-lazy="'https://dyzhwork.github.io/images/Git/git2.png'" />
+
 所以提交代码时,先利用终端指令来检查下
 
 ```bash

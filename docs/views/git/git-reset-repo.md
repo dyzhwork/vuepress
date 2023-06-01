@@ -8,9 +8,11 @@ tags:
   -
 ---
 
-## 如何清空远程仓库
+## 一、删除本地文件
 
-### ① 删除本地文件执行
+<img style="display:block;margin:auto;width:40%" v-lazy="'https://dyzhwork.github.io/images/Git/git6.jpeg'" />
+
+## 二、执行如下命令
 
 ```bash
 git push --force

@@ -10,6 +10,8 @@ tags:
 
 ## 一、如何 PUSH 到多个仓库
 
+<img style="display:block;margin:auto;width:50%" v-lazy="'https://dyzhwork.github.io/images/Git/git4.jpeg'" />
+
 ### ① 首先应该查看 Git 当前绑定有哪些仓库
 
 ```bash

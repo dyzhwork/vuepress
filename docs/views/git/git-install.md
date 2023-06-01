@@ -12,9 +12,13 @@ tags:
 
 在使用 Git 前我们需要先安装 Git。Git 目前支持 Linux/Unix、Solaris、Mac 和 Windows 平台上运行。
 
+<img style="display:block;margin:auto;width:50%" v-lazy="'https://dyzhwork.github.io/images/Git/git5.jpg'" />
+
 ## 一、下载
 
-Git 各平台安装包下载地址为：[http://git-scm.com/downloads](http://git-scm.com/downloads)
+Git 各平台安装包下载地址为：[点击此处跳转下载页面](http://git-scm.com/downloads)
+
+<img style="display:block;margin:auto;width:100%" v-lazy="'https://dyzhwork.github.io/images/Git/git.png'" />
 
 ## 二、安装
 
