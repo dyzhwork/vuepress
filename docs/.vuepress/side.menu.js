@@ -213,6 +213,14 @@ module.exports = {
         { title: '什么是TS', path: '/views/vue/ts/ts-is' },
         { title: 'TS的作用是什么', path: '/views/vue/ts/ts-function' }
       ]
+    },
+    {
+      title: 'Vue开发小技巧',
+      sidebarDepath: 2,
+      children: [
+        { title: '组件命名', path: '/views/vue/skill/component-name' },
+        { title: '递归调用组件', path: '/views/vue/skill/recursion-component' }
+      ]
     }
   ],
   // vuepress
