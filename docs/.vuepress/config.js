@@ -41,6 +41,33 @@ module.exports = {
       '/views/node/': menu.sideBarList.nodejs,
       '/views/vue/': menu.sideBarList.vuejs,
       '/views/vuepress/': menu.sideBarList.vuepress
-    }
+    },
+    sidebarDepth: 2,
+    contentBgStyle: 6, // 文章内容块的背景风格，默认无. 1 方格 | 2 横线 | 3 竖线 | 4 左斜线 | 5 右斜线 | 6 点状
+    blogger: {
+      avatar: 'https://dyzhwork.github.io/images/Avatar/avatar3.jpeg',
+      // name: 'CODER-DYZ',
+      slogan: '前端打工人'
+    },
+    // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
+    social: {
+      icons: [
+        {
+          iconClass: 'icon-youjian',
+          title: '发邮件',
+          link: 'mailto:dyzhwork@gmail.com'
+        },
+        {
+          iconClass: 'icon-gitee',
+          title: 'Gitee',
+          link: 'https://gitee.com/dyzhwork'
+        },
+        {
+          iconClass: 'icon-juejin',
+          title: '掘金主页',
+          link: 'https://juejin.cn/user/2714023479748958'
+        }
+      ]
+    },
   }
 }
