@@ -8,4 +8,8 @@ tags:
   - skill
 ---
 
+<img src='https://dyzhwork.github.io/images/Avatar/avatar2.jpeg'>
+
+<!-- more -->
+
 ## 递归调用组件
