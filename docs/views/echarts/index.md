@@ -21,3 +21,13 @@ ECharts 由百度团队开源。
 2021 年 1 月 26 日晚，Apache 基金会官方宣布 ECharts 项目正式毕业，成为 Apache 顶级项目。
 
 2021 年 1 月 28 日，ECharts 5 线上发布会举行。
+
+## 示例 001
+
+### 静态图
+
+ <img v-lazy="'https://dyzhwork.github.io/images/Echarts/echarts001.png'"/>
+
+### 动图
+
+ <img v-lazy="'https://dyzhwork.github.io/images/Echarts/echarts001.gif'"/>
