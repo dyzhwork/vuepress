@@ -94,9 +94,19 @@ module.exports = {
   ],
   echarts: [
     {
-      title: 'Echarts数据可视化',
+      title: '柱状图',
       sidebarDepath: 2,
-      children: [{ title: '柱状图', path: '/views/echarts/chart-bar' }]
+      children: [{ title: '柱状图', path: '/views/echarts/bar/chart-bar' }]
+    },
+    {
+      title: '折线图',
+      sidebarDepath: 2,
+      children: [{ title: '多条折线图', path: '/views/echarts/line/chart-line' }]
+    },
+    {
+      title: '地图',
+      sidebarDepath: 2,
+      children: [{ title: '三维立体感地图', path: '/views/echarts/map/chart-map' }]
     }
   ],
   // git侧边栏配置 // Git相关
