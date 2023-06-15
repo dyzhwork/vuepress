@@ -44,7 +44,7 @@ export function getPassDay(length = 10, fmt = 'MM-DD') {
 
 <script>
 import * as echarts from 'echarts'
-// 需要自己写一个获取过去十天日期的工具函数
+// 需要自己写一个获取过去十天日期的工具函数或者参考本文提供的函数
 import { getPassDay } from '@/utils/util.js'
 export default {
   name: 'LineArea',
