@@ -3,9 +3,7 @@ title: 仪表图
 date: 2023-06-15 17:00:25
 permalink: /pages/9e7bf3/
 categories:
-  - views
   - echarts
-  - gauge
 tags:
   -
 ---
