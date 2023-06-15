@@ -124,6 +124,11 @@ module.exports = {
       children: [{ title: '普通散点图', path: '/views/echarts/scatter/chart-scatter' }]
     },
     {
+      title: '关系图',
+      sidebarDepath: 2,
+      children: [{ title: '普通关系图', path: '/views/echarts/graph/chart-graph' }]
+    },
+    {
       title: '地图',
       sidebarDepath: 2,
       children: [{ title: '三维立体感地图', path: '/views/echarts/map/chart-map' }]
