@@ -104,6 +104,11 @@ module.exports = {
       children: [{ title: '多条折线图', path: '/views/echarts/line/chart-line' }]
     },
     {
+      title: '饼图',
+      sidebarDepath: 2,
+      children: [{ title: '普通饼图', path: '/views/echarts/pie/chart-pie' }]
+    },
+    {
       title: '仪表图',
       sidebarDepath: 2,
       children: [{ title: '普通仪表图', path: '/views/echarts/gauge/chart-gauge' }]
