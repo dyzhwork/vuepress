@@ -114,6 +114,11 @@ module.exports = {
       children: [{ title: '普通漏斗图', path: '/views/echarts/funnel/chart-funnel' }]
     },
     {
+      title: '桑基图',
+      sidebarDepath: 2,
+      children: [{ title: '普通桑基图', path: '/views/echarts/sankey/chart-sankey' }]
+    },
+    {
       title: '地图',
       sidebarDepath: 2,
       children: [{ title: '三维立体感地图', path: '/views/echarts/map/chart-map' }]
