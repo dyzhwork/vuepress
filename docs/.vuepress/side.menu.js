@@ -92,6 +92,33 @@ module.exports = {
       ]
     }
   ],
+  // 移动端
+  uniapp: [
+    {
+      title: '安卓应用程序',
+      sidebarDepath: 2,
+      children: [{ title: '搭建环境', path: '/views/uniapp/apk/' }]
+    },
+    {
+      title: 'H5网页程序',
+      sidebarDepath: 2,
+      children: [{ title: '搭建环境', path: '/views/uniapp/h5/' }]
+    },
+    {
+      title: '小程序',
+      sidebarDepath: 2,
+      children: [{ title: '搭建环境', path: '/views/uniapp/mini-program/' }]
+    }
+  ],
+  // 桌面端
+  desktop: [
+    {
+      title: 'Electron桌面应用程序',
+      sidebarDepath: 2,
+      children: [{ title: '搭建环境', path: '/views/desktop/electron/build-environment' }]
+    }
+  ],
+  // 图表展示
   echarts: [
     {
       title: '柱状图',
