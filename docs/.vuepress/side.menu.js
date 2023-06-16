@@ -115,7 +115,10 @@ module.exports = {
     {
       title: 'Electron桌面应用程序',
       sidebarDepath: 2,
-      children: [{ title: '搭建环境', path: '/views/desktop/electron/build-environment' }]
+      children: [
+        { title: 'Electron简单了解', path: '/views/desktop/electron/basic-know' },
+        { title: 'Electron开发环境搭建', path: '/views/desktop/electron/build-environment' }
+      ]
     }
   ],
   // 图表展示
