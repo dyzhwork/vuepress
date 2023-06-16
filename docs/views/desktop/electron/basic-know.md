@@ -26,13 +26,3 @@ tags:
 
 1. [MDN Web Docs](https://developer.mozilla.org/zh-CN/docs/Learn)
 2. [NodeJS 入门指南](https://nodejs.dev/zh-cn/)
-
-## 命令行创建项目
-
-只需一行命令,就能创建基本项目,执行如下命令:
-
-```sh
-npm init electron-app@latest my-app
-```
-
-- [参考文档](https://www.electronforge.io/)
