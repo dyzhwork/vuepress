@@ -1,8 +1,8 @@
 module.exports = {
   // 前端相关
   front_end_correlation: [
-    { text: '纯HTML', items: [{ text: 'HTML5', link: '/views/html/' }] },
-    { text: '纯CSS', items: [{ text: 'CSS3', link: '/views/css/' }] },
+    { text: 'HTML', items: [{ text: 'HTML5', link: '/views/html/' }] },
+    { text: 'CSS', items: [{ text: 'CSS3', link: '/views/css/' }] },
     {
       text: 'JavaScript',
       items: [
@@ -10,7 +10,9 @@ module.exports = {
         { text: 'Canvas', link: '/views/canvas/' },
         { text: 'Echarts', link: '/views/echarts/' }
       ]
-    }
+    },
+    { text: '移动端', items: [{ text: 'UniApp', link: '/views/uniapp/' }] },
+    { text: '桌面端', items: [{ text: 'Electron', link: '/views/desktop/' }] }
   ],
   // 后端相关
   back_end_correlation: [
