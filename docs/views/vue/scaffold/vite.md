@@ -19,7 +19,7 @@ Vite 需要 Node.js 版本 14.18+，16+。然而，有些模板需要依赖更�
 ### 1、检测 vite 版本
 
 ```bash
-vite -V
+vite -v
 ```
 
 <img v-lazy="'https://dyzhwork.github.io/images/Vite/vite1.png'" />

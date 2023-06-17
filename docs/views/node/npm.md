@@ -52,3 +52,13 @@ npm config list -g
 :::tip 注意
 在设置全局包下载路径时，应该确保该路径有足够的权限，以便 npm 可以在该路径下创建和修改文件。
 :::
+
+## 二、配置淘宝镜像
+
+<!-- npm config set registry https://registry.npm.taobao.org -->
+
+执行以下命令让你的 npm 下载依赖飞起来
+
+```shell
+npm config set registry https://registry.npm.taobao.org
+```

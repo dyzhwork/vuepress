@@ -20,6 +20,12 @@ vue -V
 
 <img v-lazy="'https://dyzhwork.github.io/images/Vuecli/vuecli2.png'"   />
 
+如果出现`command not found`，执行下面命令，全局安装`@vue/cli`脚手架，成功后再次查看版本。
+
+```bash
+npm i -g @vue/cli
+```
+
 ### 2. 创建项目
 
 ```bash
