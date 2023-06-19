@@ -15,7 +15,7 @@ tags:
 **使用 PowerShell**
 
 ```bash
-iwr https://get.pnpm.io/install.ps1 -useb | iex
+iwr https://get.pnpm.io/install.ps1 -useb | iex # 推荐方式,全局安装
 ```
 
 ### 2. 在 Linux 系统上
