@@ -55,13 +55,13 @@ HTML`article`元素表示文档、页面、应用或网站中的独立结构，�
 当浏览器不支持`<ruby>`元素的时候，`<rp>`元素用为其提供注解的，并提供随后的圆括号。
 
 ```html
-<ruby> 漢 <rp>(</rp><rt>kan</rt><rp>)</rp> 字 <rp>(</rp><rt>ji</rt><rp>)</rp> </ruby>
+<ruby> 漢 <rp>(</rp><rt>han</rt><rp>)</rp> 字 <rp>(</rp><rt>zi</rt><rp>)</rp> </ruby>
 ```
 
 :::details 实际效果
 <ruby>
-漢 <rp>(</rp><rt>kan</rt><rp>)</rp>
-字 <rp>(</rp><rt>ji</rt><rp>)</rp>
+漢 <rp>(</rp><rt>han</rt><rp>)</rp>
+字 <rp>(</rp><rt>zi</rt><rp>)</rp>
 </ruby>
 :::
 
@@ -85,12 +85,12 @@ HTML`article`元素表示文档、页面、应用或网站中的独立结构，�
 HTML`<ruby>`元素被用来展示东亚文字注音或字符注释
 
 ```html
-<ruby> 漢<rp>(</rp><rt>kan</rt><rp>)</rp> 字<rp>(</rp><rt>ji</rt><rp>)</rp> </ruby>
+<ruby> 漢<rp>(</rp><rt>han</rt><rp>)</rp> 字<rp>(</rp><rt>zi</rt><rp>)</rp> </ruby>
 ```
 
 :::details 实际效果
 <ruby>
-漢<rp>(</rp><rt>kan</rt><rp>)</rp>
-字<rp>(</rp><rt>ji</rt><rp>)</rp>
+漢<rp>(</rp><rt>han</rt><rp>)</rp>
+字<rp>(</rp><rt>zi</rt><rp>)</rp>
 </ruby>
 :::
