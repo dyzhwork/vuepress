@@ -2,7 +2,8 @@ module.exports = {
   html: [
     { title: '一、基本元素', sidebarDepath: 2, path: '/views/html/basic-element' },
     { title: '二、常用元素', sidebarDepath: 2, path: '/views/html/common-element' },
-    { title: '三、H5新增元素', sidebarDepath: 2, path: '/views/html/h5-add-element' }
+    { title: '三、H5新增内容', sidebarDepath: 2, path: '/views/html/h5-add-element' },
+    { title: '四、H5新增元素的实际效果', sidebarDepath: 2, path: '/views/html/tag-element-effect' }
   ],
   css: [
     {
