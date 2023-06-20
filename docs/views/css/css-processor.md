@@ -29,9 +29,9 @@ CSS 前处理器就是把其他不是普通 CSS 的代码处理转换成普通 c
 
 CSS 后处理器就是把普通 css 代码进行处理转换成其他体积更小,兼容性更强的 css 代码,比如:
 
-- cssnano
-- purgecss
-- autoprefix
+- cssnano     压缩体积
+- purgecss    去掉没用的css
+- autoprefix  加上前缀
 
 :::tip 作用
 将 CSS 处理成更小体积,更加具有兼容性等
