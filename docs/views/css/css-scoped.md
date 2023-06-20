@@ -5,7 +5,6 @@ permalink: /pages/6860cf/
 categories:
   - css
 tags:
-  - css
 ---
 
 ## CSS 作用域

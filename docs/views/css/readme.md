@@ -5,8 +5,6 @@ permalink: /pages/f7b148/
 categories:
   - css
 tags:
-  - css
-  - 美化页面
 ---
 
 # CSS 必备前奏

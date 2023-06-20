@@ -3,7 +3,6 @@ title: Scss实现星空效果
 date: 2023-06-20 16:53:17
 permalink: /pages/820176/
 categories:
-  - views
   - css
   - scss
 tags:

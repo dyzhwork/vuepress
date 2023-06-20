@@ -5,7 +5,6 @@ permalink: /pages/3118a0/
 categories:
   - css
 tags:
-  - css
 ---
 
 ## CSS 变量

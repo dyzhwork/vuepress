@@ -5,7 +5,6 @@ permalink: /pages/a09c01/
 categories:
   - css
 tags:
-  - css选择器
 ---
 
 ## 一、CSS 选择器

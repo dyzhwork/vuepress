@@ -4,8 +4,8 @@ date: 2023-05-29 09:13:16
 permalink: /pages/d8bfa4/
 categories:
   - css
-tags:
   - sass
+tags:
 ---
 
 ## Sass 语法
@@ -100,11 +100,7 @@ $width: 100px;
 6. 循环：可以使用` @for`、`@each` 和 `@while` 指令来执行循环操作。例如：
 
 ```css
-@for $i from 1 through 5 
-  .item-#{$i} 
-    width: 100px * $i 
-    height: 50px 
-    background-color: #ccc ;
+@for $i from 1 through 5 .item-#{$i} width: 100px * $i height: 50px background-color: #ccc ;
 ```
 
 这将生成下面的 CSS 代码：

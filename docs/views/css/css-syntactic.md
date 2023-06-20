@@ -5,7 +5,6 @@ permalink: /pages/321ca9/
 categories:
   - css
 tags:
-  - css语法
 ---
 
 ## 一、语法示例
