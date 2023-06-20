@@ -3,7 +3,7 @@
     <div class="item1"></div>
     <div class="item2"></div>
     <div class="item3"></div>
-    <div class="title">scss星空效果</div>
+    <div class="title">Scss星空效果</div>
   </div>
 </template>
 
