@@ -15,7 +15,7 @@ tags:
 
 ## 代码展示
 
-使用`vue`作为组件代替`HTML`实现。
+:::details 使用 Vue 作为组件代替 HTML 实现
 
 ```vue
 <template>
@@ -92,6 +92,8 @@ export default {}
 }
 </style>
 ```
+
+:::
 
 ## Scss 代码编译后的结果
 
