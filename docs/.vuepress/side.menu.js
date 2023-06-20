@@ -40,7 +40,8 @@ module.exports = {
       sidebarDepath: 2,
       children: [
         { title: '一、Scss简介', path: '/views/css/scss/introduction' },
-        { title: '二、Scss语法', path: '/views/css/scss/syntactic' }
+        { title: '二、Scss语法', path: '/views/css/scss/syntactic' },
+        { title: '三、scss实现星空效果', path: '/views/css/scss/scss实现星空效果' }
       ]
     },
     {
