@@ -15,7 +15,8 @@ module.exports = {
         { title: '三、CSS选择器', path: '/views/css/css-selector' },
         { title: '四、CSS变量', path: '/views/css/css-variable' },
         { title: '五、CSS函数', path: '/views/css/css-function' },
-        { title: '六、CSS作用域', path: '/views/css/css-scoped' }
+        { title: '六、CSS作用域', path: '/views/css/css-scoped' },
+        { title: '七、CSS处理器', path: '/views/css/css-processor' }
       ]
     },
     {
