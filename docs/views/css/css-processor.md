@@ -14,7 +14,7 @@ tags:
 
 ## CSS 前处理器
 
-CSS 前处理器就是变成 css 前的相关技术,比如:
+CSS 前处理器就是把其他不是普通 CSS 的代码处理转换成普通 css 前的相关技术,比如:
 
 - [less](/views/css/less/introduction)
 - [scss](/views/css/scss/introduction)
@@ -27,7 +27,7 @@ CSS 前处理器就是变成 css 前的相关技术,比如:
 
 ## CSS 后处理器
 
-CSS 后处理器有比如:
+CSS 后处理器就是把普通 css 代码进行处理转换成其他体积更小,兼容性更强的 css 代码,比如:
 
 - cssnano
 - purgecss
