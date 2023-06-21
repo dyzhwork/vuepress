@@ -39,7 +39,7 @@ export default {
           content: '#{$word}';
           color: rgb(random(255), random(255), random(255));
         }
-        // 设置不同宽度值,更新值,需要注意的是 "$max_width - 100px"是进行运算,中间"-"必须和两边的值分开,否则,将会作为一个变量($max_width-100px)使用,导致报错
+        // 设置不同宽度值,更新值,需要注意的是 "$max_width - 50px"是进行运算,中间"-"必须和两边的值分开,否则,将会作为一个变量($max_width-50px)使用,导致报错
         $max_width: $max_width - 50px;
       }
     }
