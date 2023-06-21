@@ -51,8 +51,8 @@ export default {}
   $duration: 400s;
   $count: 1000;
   @for $i from 1 through 3 {
-    $duration: floor($duration/2);
-    $count: floor($count/2);
+    $duration: floor(calc($duration / 2));
+    $count: floor(calc($count / 2));
     .item#{$i} {
       // 重点
       $size: #{$i}px;
