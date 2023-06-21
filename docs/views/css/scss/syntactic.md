@@ -1,5 +1,5 @@
 ---
-title: Scss语法
+title: Scss基础语法
 date: 2023-05-29 09:43:09
 permalink: /pages/728078/
 categories:
@@ -195,6 +195,65 @@ $color: #f10;
 :::
 
 ## Scss 函数-混入
+
+场景 1,我们需要做一个居中效果,比如外层容器类名为 out_box1,内层容器类名为 inner_box1,那我们使用弹性盒实现,html 代码如下:
+
+```html
+<div class="out_box1">
+  <div class="inner_box1"></div>
+</div>
+```
+
+CSS 代码如下:
+
+```css
+.out_box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+```
+
+但是如果有多个容器都会使用居中这个样式,比如下方代码,out_box2 也需要设置居中样式,那我们可以这样做,使用 Scss 的混合:
+
+```html
+<div class="out_box1">
+  <div class="inner_box1"></div>
+</div>
+<div class="out_box2">
+  <div class="inner_box2"></div>
+</div>
+```
+
+```scss
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.out_box1 {
+  @include flexCenter;
+}
+.out_box2 {
+  @include flexCenter;
+}
+```
+
+使用传参数自定义
+
+```scss
+@mixin flex($layout) {
+  display: flex;
+  align-items: $layout;
+  justify-content: $layout;
+}
+.out_box1 {
+  @include flex(center);
+}
+.out_box2 {
+  @include flex(start);
+}
+```
 
 ## Scss 嵌套
 
