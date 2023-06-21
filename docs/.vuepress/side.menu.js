@@ -44,7 +44,8 @@ module.exports = {
         { title: '三、scss实现星空效果', path: '/views/css/scss/scss实现星空效果' },
         { title: '四、Scss文字根据窗口变化', path: '/views/css/scss/Scss文字根据窗口变化' },
         { title: '五、Scss媒介查询适配不同设备', path: '/views/css/scss/Scss媒介查询适配不同设备' },
-        { title: '六、Scss环形菜单', path: '/views/css/scss/Scss环形菜单' }
+        { title: '六、Scss环形菜单', path: '/views/css/scss/Scss环形菜单' },
+        { title: '六、Scss颜色模块', path: '/views/css/scss/Scss颜色模块' }
       ]
     },
     {
