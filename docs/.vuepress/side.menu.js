@@ -10,8 +10,8 @@ module.exports = {
       title: 'CSS基础',
       sidebarDepath: 2,
       children: [
-        { title: '一、CSS简介', path: '/views/css/css-introduction' },
-        { title: '二、CSS语法', path: '/views/css/css-syntactic' },
+        { title: '一、CSS入门简介', path: '/views/css/css-introduction' },
+        { title: '二、CSS基础语法', path: '/views/css/css-syntactic' },
         { title: '三、CSS选择器', path: '/views/css/css-selector' },
         { title: '四、CSS变量', path: '/views/css/css-variable' },
         { title: '五、CSS函数', path: '/views/css/css-function' },
@@ -23,24 +23,24 @@ module.exports = {
       title: 'PostCSS-CSS转换工具',
       sidebarDepath: 2,
       children: [
-        { title: '一、PostCSS简介', path: '/views/css/postcss/introduction' },
-        { title: '二、PostCSS语法', path: '/views/css/postcss/syntactic' }
+        { title: '一、PostCSS入门简介', path: '/views/css/postcss/introduction' },
+        { title: '二、PostCSS基础语法', path: '/views/css/postcss/syntactic' }
       ]
     },
     {
       title: 'Less预处理',
       sidebarDepath: 2,
       children: [
-        { title: '一、Less简介', path: '/views/css/less/introduction' },
-        { title: '二、Less语法', path: '/views/css/less/syntactic' }
+        { title: '一、Less入门简介', path: '/views/css/less/introduction' },
+        { title: '二、Less基础语法', path: '/views/css/less/syntactic' }
       ]
     },
     {
       title: 'Scss预处理',
       sidebarDepath: 2,
       children: [
-        { title: '一、Scss简介', path: '/views/css/scss/introduction' },
-        { title: '二、Scss语法', path: '/views/css/scss/syntactic' },
+        { title: '一、Scss入门简介', path: '/views/css/scss/introduction' },
+        { title: '二、Scss基础语法', path: '/views/css/scss/syntactic' },
         { title: '三、scss实现星空效果', path: '/views/css/scss/scss实现星空效果' },
         { title: '四、Scss文字根据窗口变化', path: '/views/css/scss/Scss文字根据窗口变化' },
         { title: '五、Scss媒介查询适配不同设备', path: '/views/css/scss/Scss媒介查询适配不同设备' }
@@ -50,16 +50,16 @@ module.exports = {
       title: 'Sass预处理',
       sidebarDepath: 2,
       children: [
-        { title: '一、Sass简介', path: '/views/css/sass/introduction' },
-        { title: '二、Sass语法', path: '/views/css/sass/syntactic' }
+        { title: '一、Sass入门简介', path: '/views/css/sass/introduction' },
+        { title: '二、Sass基础语法', path: '/views/css/sass/syntactic' }
       ]
     },
     {
       title: 'Stylus预处理',
       sidebarDepath: 2,
       children: [
-        { title: '一、Stylus简介', path: '/views/css/stylus/introduction' },
-        { title: '二、Stylus语法', path: '/views/css/stylus/syntactic' }
+        { title: '一、Stylus入门简介', path: '/views/css/stylus/introduction' },
+        { title: '二、Stylus基础语法', path: '/views/css/stylus/syntactic' }
       ]
     }
   ],
