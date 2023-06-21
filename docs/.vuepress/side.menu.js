@@ -41,7 +41,8 @@ module.exports = {
       children: [
         { title: '一、Scss简介', path: '/views/css/scss/introduction' },
         { title: '二、Scss语法', path: '/views/css/scss/syntactic' },
-        { title: '三、scss实现星空效果', path: '/views/css/scss/scss实现星空效果' }
+        { title: '三、scss实现星空效果', path: '/views/css/scss/scss实现星空效果' },
+        { title: '四、Scss文字根据窗口变化', path: '/views/css/scss/Scss文字根据窗口变化' }
       ]
     },
     {
