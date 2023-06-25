@@ -221,7 +221,11 @@ module.exports = {
       ]
     },
     { title: '二、NPM相关报错', sidebarDepath: 2, children: [] },
-    { title: '三、Linux相关', sidebarDepath: 2, children: [] }
+    {
+      title: '三、Linux相关',
+      sidebarDepath: 2,
+      children: [{ title: '启用管理员账户', path: '/views/error_resolution/linux/启用管理员账户' }]
+    }
   ],
   // nodejs
   nodejs: [
