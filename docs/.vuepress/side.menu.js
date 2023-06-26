@@ -230,12 +230,7 @@ module.exports = {
     {
       title: '三、Linux相关',
       sidebarDepath: 2,
-      children: [
-        {
-          title: '启用管理员账户',
-          path: '/views/linux/EnablingAdministratorAccount'
-        }
-      ]
+      children: [{ title: '启用管理员账户', path: '/views/linux/EnablingAdministratorAccount' }]
     }
   ],
   // nodejs
@@ -257,9 +252,16 @@ module.exports = {
     { title: 'nrm源管理器', sidebarDepath: 3, path: '/views/node/npm-registry-manager' }
   ],
   // linux
-  linux: {},
+  linux: [
+    {
+      title: 'Windows安装Linux子系统',
+      sidebarDepath: 3,
+      path: '/views/linux/WindowsSubsystemInstall'
+    },
+    { title: '启用管理员账户', sidebarDepath: 3, path: '/views/linux/EnablingAdministratorAccount' }
+  ],
   // windows
-  windows: {},
+  windows: [],
   // vuejs
   vuejs: [
     {
