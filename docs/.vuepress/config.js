@@ -41,6 +41,8 @@ module.exports = {
       '/views/git/': menu.sideBarList.git,
       '/views/error_resolution/': menu.sideBarList.error_resolution,
       '/views/node/': menu.sideBarList.nodejs,
+      '/views/linux/': menu.sideBarList.linux,
+      '/views/windows/': menu.sideBarList.windows,
       '/views/vue/': menu.sideBarList.vuejs,
       '/views/vuepress/': menu.sideBarList.vuepress
     },

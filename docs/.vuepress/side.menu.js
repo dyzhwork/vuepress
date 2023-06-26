@@ -256,6 +256,10 @@ module.exports = {
     { title: 'yarn包管理器', sidebarDepath: 3, path: '/views/node/yarn' },
     { title: 'nrm源管理器', sidebarDepath: 3, path: '/views/node/npm-registry-manager' }
   ],
+  // linux
+  linux: {},
+  // windows
+  windows: {},
   // vuejs
   vuejs: [
     {

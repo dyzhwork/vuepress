@@ -24,6 +24,13 @@ module.exports = {
         { text: 'Sequelize框架', link: '/views/sequelize/' }
       ]
     },
+    {
+      text: '操作系统',
+      items: [
+        { text: 'Linux系统', link: '/views/linux/' },
+        { text: 'Windows系统', link: '/views/windows/' }
+      ]
+    },
     { text: 'API管理', items: [{ text: 'apifox', link: '/views/apifox/' }] }
   ]
 }
