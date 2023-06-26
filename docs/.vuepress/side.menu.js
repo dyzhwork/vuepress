@@ -233,7 +233,7 @@ module.exports = {
       children: [
         {
           title: '启用管理员账户',
-          path: '/views/error_resolution/linux/EnablingAdministratorAccount'
+          path: '/views/linux/EnablingAdministratorAccount'
         }
       ]
     }
