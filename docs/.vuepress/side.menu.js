@@ -41,12 +41,12 @@ module.exports = {
       children: [
         { title: '一、Scss入门简介', path: '/views/css/scss/introduction' },
         { title: '二、Scss基础语法', path: '/views/css/scss/syntactic' },
-        { title: '三、scss实现星空效果', path: '/views/css/scss/scss实现星空效果' },
-        { title: '四、Scss文字根据窗口变化', path: '/views/css/scss/Scss文字根据窗口变化' },
-        { title: '五、Scss媒介查询适配不同设备', path: '/views/css/scss/Scss媒介查询适配不同设备' },
-        { title: '六、Scss环形菜单', path: '/views/css/scss/Scss环形菜单' },
-        { title: '七、Scss颜色模块', path: '/views/css/scss/Scss颜色模块' },
-        { title: '八、Scs切换主题', path: '/views/css/scss/Scss实现主题切换' }
+        { title: '三、scss实现星空效果', path: '/views/css/scss/ScssXingKongEffect' },
+        { title: '四、Scss文字根据窗口变化', path: '/views/css/scss/ScssWordChangeByWindow' },
+        { title: '五、Scss媒介查询适配不同设备', path: '/views/css/scss/ScssMediaQueryDevice' },
+        { title: '六、Scss环形菜单', path: '/views/css/scss/ScssAnnulusMenu' },
+        { title: '七、Scss颜色模块', path: '/views/css/scss/ScssColorModule' },
+        { title: '八、Scs切换主题', path: '/views/css/scss/ScssChangeTheme' }
       ]
     },
     {
@@ -230,7 +230,12 @@ module.exports = {
     {
       title: '三、Linux相关',
       sidebarDepath: 2,
-      children: [{ title: '启用管理员账户', path: '/views/error_resolution/linux/启用管理员账户' }]
+      children: [
+        {
+          title: '启用管理员账户',
+          path: '/views/error_resolution/linux/EnablingAdministratorAccount'
+        }
+      ]
     }
   ],
   // nodejs
