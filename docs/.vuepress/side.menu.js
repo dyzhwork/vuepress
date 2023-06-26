@@ -45,7 +45,8 @@ module.exports = {
         { title: '四、Scss文字根据窗口变化', path: '/views/css/scss/Scss文字根据窗口变化' },
         { title: '五、Scss媒介查询适配不同设备', path: '/views/css/scss/Scss媒介查询适配不同设备' },
         { title: '六、Scss环形菜单', path: '/views/css/scss/Scss环形菜单' },
-        { title: '六、Scss颜色模块', path: '/views/css/scss/Scss颜色模块' }
+        { title: '七、Scss颜色模块', path: '/views/css/scss/Scss颜色模块' },
+        { title: '八、Scs切换主题', path: '/views/css/scss/Scss实现主题切换' }
       ]
     },
     {
