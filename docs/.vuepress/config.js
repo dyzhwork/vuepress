@@ -36,6 +36,7 @@ module.exports = {
       '/views/javascript/': menu.sideBarList.javascript,
       '/views/canvas/': menu.sideBarList.canvas,
       '/views/echarts/': menu.sideBarList.echarts,
+      '/views/animation/': menu.sideBarList.animation,
       '/views/uniapp/': menu.sideBarList.uniapp,
       '/views/desktop/': menu.sideBarList.desktop,
       '/views/git/': menu.sideBarList.git,

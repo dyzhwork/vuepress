@@ -95,6 +95,15 @@ module.exports = {
       ]
     }
   ],
+  // 动画库
+  animation: [
+    {
+      title: 'GSAP动画库',
+      sidebarDepath: 2,
+      children: [{ title: '一、GSAP入门简介', path: '/views/animation/gsap/get-started' }]
+    }
+  ],
+  // canvas脚本
   canvas: [
     {
       title: 'canvas绘图API',
