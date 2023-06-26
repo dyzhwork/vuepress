@@ -4356,6 +4356,11 @@ gray-matter@^4.0.1:
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
 
+gsap@^3.12.1:
+  version "3.12.1"
+  resolved "https://registry.npmmirror.com/gsap/-/gsap-3.12.1.tgz#e6482f336547cbab947e9f57071565bdce611f79"
+  integrity sha512-FXtb2YbBE9l8I9Pl5DFLpCMedaiMPztRlr0Ln0CMSnJn+pbTaeKlzgth8cLNPc7PzNwIZe+SEQiBBAWaBKJdVA==
+
 handle-thing@^2.0.0:
   version "2.0.1"
   resolved "https://registry.npmmirror.com/handle-thing/-/handle-thing-2.0.1.tgz#857f79ce359580c340d43081cc648970d0bb234e"
