@@ -178,7 +178,7 @@ export default {
     gap: 10px 5px;
     @for $i from 1 through 6 {
       .item#{$i} {
-        width: 280px;
+        width: 100%;
         height: 160px;
         position: relative;
         overflow: hidden;
