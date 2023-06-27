@@ -75,7 +75,10 @@ module.exports = {
     {
       title: '基础JavaScript',
       sidebarDepath: 2,
-      children: [{ title: '基础知识', path: '/views/javascript/basic/basic-known' }]
+      children: [
+        { title: '基础知识', path: '/views/javascript/basic/basic-known' },
+        { title: '浏览器渲染原理', path: '/views/javascript/basic/browser-rendering-principle' }
+      ]
     },
     {
       title: 'JS的前半生',
