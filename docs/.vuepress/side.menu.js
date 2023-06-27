@@ -100,7 +100,13 @@ module.exports = {
     {
       title: 'GSAP动画库',
       sidebarDepath: 2,
-      children: [{ title: '一、GSAP入门简介', path: '/views/animation/gsap/get-started' }]
+      children: [
+        { title: '一、GSAP入门简介', path: '/views/animation/gsap/get-started' },
+        {
+          title: '二、心形动画和卡片过渡效果',
+          path: '/views/animation/gsap/heart-shape-card-transform'
+        }
+      ]
     }
   ],
   // canvas脚本
