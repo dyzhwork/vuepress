@@ -21,9 +21,6 @@ export default {
       direction: 'left'
     }
   },
-  mounted() {
-    console.log(gsap, 666)
-  },
   methods: {
     moveToRight() {
       if (this.direction == 'left') {

@@ -155,7 +155,7 @@ export default {
         display: flex;
         flex-direction: column;
         gap: 10px;
-        grid-column: $i / ($i + 1);
+        grid-column: #{$i} / #{$i + 1};
         @if (($i == 1) or ($i == 9)) {
           grid-row: 2/4;
         } @else if (($i ==2) or ($i == 8)) {
