@@ -20,6 +20,11 @@ module.exports = {
       ]
     },
     {
+      title: 'CSS特效',
+      sidebarDepath: 2,
+      children: [{ title: '一、Css文字下划线进入退出', path: '/views/css/css-word-underline' }]
+    },
+    {
       title: 'PostCSS-CSS转换工具',
       sidebarDepath: 2,
       children: [
