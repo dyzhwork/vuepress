@@ -14,7 +14,7 @@ export default ({ Vue, options, router, siteData }) => {
       }
       const imgObserver = new IntersectionObserver((el) => {
         if (el[0].isIntersecting) {
-          console.log(el[0].isIntersecting)
+          // console.log(el[0].isIntersecting)
           const lazyImage = el[0].target
           lazyImage.src = binding.value
           imgObserver.unobserve(lazyImage)
