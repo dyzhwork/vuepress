@@ -259,6 +259,276 @@ CSS 代码如下:
 
 ## Scss 继承
 
+下面的代码,是不是有很多冗余的,相同重复的地方,用 Scss 该怎么优化呢?
+
+```scss
+.info {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  color: #000;
+}
+.info-success {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  color: green;
+}
+.info-error {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  color: #f10;
+}
+.info-info {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  color: #ccc;
+}
+```
+
+**使用继承的方式来写:**
+
+```scss
+.info {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  color: #000;
+}
+.info-success {
+  @extend .tip;
+  color: green;
+}
+.info-error {
+  @extend .tip;
+  color: #f10;
+}
+.info-info {
+  @extend .tip;
+  color: #ccc;
+}
+```
+
+:::details 编译后的结果,可以看到已经提取出公用的代码了
+
+```css
+.info,
+.info-info,
+.info-error,
+.info-success {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  color: #000;
+}
+
+.info-success {
+  color: green;
+}
+
+.info-error {
+  color: #f10;
+}
+
+.info-info {
+  color: #ccc;
+}
+```
+
+:::
+
+### 使用`%`占位符提取公共代码再优化
+
+```scss
+%info {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  color: #000;
+}
+.info-success {
+  @extend %info;
+  color: green;
+}
+.info-error {
+  @extend %info;
+  color: #f10;
+}
+.info-info {
+  @extend %info;
+  color: #ccc;
+}
+```
+
+:::details 编译后的结果
+
+```css{2}
+/* 可以看到公共代码的%info没有了 */
+.info-info, .info-error, .info-success {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  color: #000;
+}
+
+.info-success {
+  color: green;
+}
+
+.info-error {
+  color: #f10;
+}
+
+.info-info {
+  color: #ccc;
+}
+```
+
+:::
+
 ## Scss 导入
+
+Scss 导入模块有哪些方式?1.`@import`,2.`@use`
+
+- `@import`:又分为`编译时用法`和`运行时用法`
+
+### 运行时
+
+例如:Scss 中引用一个外部 css,如:`@import url('../../ffff.csss');`,最终生产运行时还是`@import url('../../ffff.csss');`,这样其实就是 css 的扩展,因为这个文件压根不在,但是他还是能编译通过.
+
+### 编译时
+
+比如在一个文件 aaa.scss 中定义一个变量`$color:#f10`,我在 bbb.scss 文件中导入 aaa.scss 文件代码,代码如下:
+
+```scss
+// aaa.scss文件中
+$color: #f10;
+```
+
+```scss
+// bbb.scss文件中
+@import './aaa.scss';
+.foo {
+  background: $color;
+}
+```
+
+最终能编译出:
+
+```css
+.foo {
+  background: #f10;
+}
+```
+
+### 造成的问题
+
+由于既有运行时,也有编译时,所以很容易造成混淆,污染变量等问题.
+
+例如,还有一个和 aaa.scss 文件同目录下的 ccc.scss 文件,里面也有一个$color 变量,文件内容内容如下:
+
+```scss
+// ccc.scss文件中
+$color: #098;
+```
+
+在 bbb.scss 文件中同时导入 aaa.scss 和 ccc.scss 文件,
+
+```scss
+// bbb.scss文件中
+@import './aaa.scss';
+@import './ccc.scss';
+.foo {
+  background: $color;
+}
+```
+
+最终编译后的结果是:
+
+```css
+.foo {
+  background: #098;
+}
+```
+
+**如果先导入 ccc.scss 文件**
+
+```scss
+// bbb.scss文件中
+@import './ccc.scss';
+@import './aaa.scss';
+.foo {
+  background: $color;
+}
+```
+
+最终编译后的结果是:
+
+```css
+.foo {
+  background: #f10;
+}
+```
+
+不难看出确实导致变量污染,而且不利于私有变量使用,本来只想内部使用,但是现在全局导入的都可以用,要解决这个问题,使用官方推荐的导入方式:将`@import`改变成`@use`即可解决这个问题,例如上面的可以写成:
+
+```scss
+// bbb.scss文件中
+@use './ccc.scss';
+@use './aaa.scss';
+// 这样写后,导入的每一个模块有了属于自己的模块名称,使用时应该带上模块名称(文件名)
+.foo {
+  background: ccc.$color;
+}
+.test {
+  color: aaa.$color;
+}
+```
+
+最终编译后的结果是:
+
+```css
+.foo {
+  background: #098;
+}
+
+.test {
+  color: #f10;
+}
+```
+
+**当然,会遇到同名文件的情况,比如两个 aaa.scss 文件不是共同的目录下,如:**
+
+```scss
+@use './aaa.scss';
+@use './xxx/aaa.scss';
+```
+
+这种情况下,可以自定义重命名模块名称,使用`as`重命名,如:
+
+```scss
+@use './aaa.scss' as a1;
+@use './xxx/aaa.scss' as a2;
+.foo {
+  background: a1.$color;
+}
+.test {
+  color: a2.$color;
+}
+```
+
+编译后的结果:
+
+```css
+.foo {
+  background: #f10;
+}
+
+.test {
+  color: #098;
+}
+```
 
 ## Scss 作用域
