@@ -154,7 +154,8 @@ module.exports = {
       children: [
         { title: 'Electron简单了解', path: '/views/desktop/electron/basic-know' },
         { title: 'Electron开发环境搭建', path: '/views/desktop/electron/build-environment' },
-        { title: '搭建ElectronVite项目', path: '/views/desktop/electron/electron-vite' }
+        { title: '搭建ElectronVite项目', path: '/views/desktop/electron/electron-vite' },
+        { title: 'ElectronVite项目自定义', path: '/views/desktop/electron/electron-vite-custom' }
       ]
     }
   ],

@@ -3,7 +3,6 @@ title: 搭建ElectronVite项目
 date: 2023-06-30 10:39:26
 permalink: /pages/3df74b/
 categories:
-  - views
   - desktop
   - electron
 tags:
