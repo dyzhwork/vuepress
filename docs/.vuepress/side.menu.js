@@ -153,7 +153,8 @@ module.exports = {
       sidebarDepath: 2,
       children: [
         { title: 'Electron简单了解', path: '/views/desktop/electron/basic-know' },
-        { title: 'Electron开发环境搭建', path: '/views/desktop/electron/build-environment' }
+        { title: 'Electron开发环境搭建', path: '/views/desktop/electron/build-environment' },
+        { title: '搭建ElectronVite项目', path: '/views/desktop/electron/electron-vite' }
       ]
     }
   ],
