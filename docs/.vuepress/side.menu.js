@@ -101,6 +101,13 @@ module.exports = {
         { title: '4. 操作对象', path: '/views/javascript/ES6/object' },
         { title: '5. 操作数组', path: '/views/javascript/ES6/array' }
       ]
+    },
+    {
+      title: '面试题',
+      sidebarDepath: 2,
+      children: [
+        { title: '类型转换和运算', path: '/views/javascript/interview/type-conversion-operations' }
+      ]
     }
   ],
   // 动画库
