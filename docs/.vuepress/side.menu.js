@@ -51,7 +51,8 @@ module.exports = {
         { title: '五、Scss媒介查询适配不同设备', path: '/views/css/scss/ScssMediaQueryDevice' },
         { title: '六、Scss环形菜单', path: '/views/css/scss/ScssAnnulusMenu' },
         { title: '七、Scss颜色模块', path: '/views/css/scss/ScssColorModule' },
-        { title: '八、Scs切换主题', path: '/views/css/scss/ScssChangeTheme' }
+        { title: '八、Scss切换主题', path: '/views/css/scss/ScssChangeTheme' },
+        { title: '九、Scs旋转切换轮播图', path: '/views/css/scss/ScssRotateSwiper' }
       ]
     },
     {
