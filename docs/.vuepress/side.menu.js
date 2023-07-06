@@ -109,6 +109,20 @@ module.exports = {
       children: [
         { title: '类型转换和运算', path: '/views/javascript/interview/type-conversion-operations' }
       ]
+    },
+    {
+      title: 'ES6各版本特性',
+      sidebarDepath: 2,
+      children: [
+        { title: 'ES2015(ES6)', path: '/views/javascript/ES6/ES2015' },
+        { title: 'ES2016(ES7)', path: '/views/javascript/ES6/ES2016' },
+        { title: 'ES2017(ES8)', path: '/views/javascript/ES6/ES2017' },
+        { title: 'ES2018(ES9)', path: '/views/javascript/ES6/ES2018' },
+        { title: 'ES2019(ES10)', path: '/views/javascript/ES6/ES2019' },
+        { title: 'ES2020(ES11)', path: '/views/javascript/ES6/ES2020' },
+        { title: 'ES2021(ES12)', path: '/views/javascript/ES6/ES2021' },
+        { title: 'ES2022(ES13)', path: '/views/javascript/ES6/ES2022' }
+      ]
     }
   ],
   // 动画库
