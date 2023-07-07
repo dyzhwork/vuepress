@@ -78,7 +78,8 @@ module.exports = {
       sidebarDepath: 2,
       children: [
         { title: '基础知识', path: '/views/javascript/basic/basic-known' },
-        { title: '浏览器渲染原理', path: '/views/javascript/basic/browser-rendering-principle' }
+        { title: '浏览器渲染原理', path: '/views/javascript/basic/browser-rendering-principle' },
+        { title: 'Web Audio API', path: '/views/javascript/basic/web-audio-api' }
       ]
     },
     {
