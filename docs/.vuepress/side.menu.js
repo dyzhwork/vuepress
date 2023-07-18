@@ -20,9 +20,13 @@ module.exports = {
       ]
     },
     {
-      title: 'CSS特效',
+      title: 'CSS3新特性',
       sidebarDepath: 2,
-      children: [{ title: '一、Css文字下划线进入退出', path: '/views/css/css-word-underline' }]
+      children: [
+        { title: '一、Css文字下划线进入退出', path: '/views/css/css-word-underline' },
+        { title: '二、Css3新特性-property', path: '/views/css/css3-property' },
+        { title: '三、Css3之@property实际用例', path: '/views/css/css3-property-useful' }
+      ]
     },
     {
       title: 'PostCSS-CSS转换工具',
