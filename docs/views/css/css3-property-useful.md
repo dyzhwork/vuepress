@@ -202,6 +202,12 @@ tags:
   margin-top: -50px;
   animation: shark 1s linear infinite;
 }
+.hour,
+.minute,
+.second {
+  width: 110px;
+  display: inline-block;
+}
 
 @keyframes hour_num {
   to {
