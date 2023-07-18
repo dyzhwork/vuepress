@@ -13,7 +13,7 @@ tags:
 
 **`打开开发者工具改变窗口大小 或者 改变浏览器窗口大小 看中间文字改变效果`**
 
-<ScssWordChangeByWindow/>
+<Scss-WordChangeByWindow/>
 
 ## 代码
 

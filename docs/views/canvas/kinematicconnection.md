@@ -11,7 +11,7 @@ tags:
 
 ## 一、最终实现效果
 
-<KinematicConnection/>
+<Canvas-KinematicConnection/>
 
 ## 二、使用以下几个步骤
 

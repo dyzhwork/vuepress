@@ -127,7 +127,7 @@ options 是构造函数的第二个参数，是一个对象的形式，它主要
 
 ## 五、代码实现图片懒加载
 
-<LazyLoadImg/>
+<JS-LazyLoadImg/>
 
 :::tip 完整代码见下方
 :::

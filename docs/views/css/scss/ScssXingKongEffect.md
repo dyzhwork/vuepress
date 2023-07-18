@@ -11,7 +11,7 @@ tags:
 
 ## 实现效果
 
-<ScssXingKongEffect/>
+<Scss-XingKongEffect/>
 
 ## 代码展示
 

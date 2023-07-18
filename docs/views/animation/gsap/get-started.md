@@ -41,7 +41,7 @@ npm install gsap
 const { gsap } = require('gsap')
 ```
 
-<GSAPAnimation/>
+<Gsap-Animation/>
 
 :::tip 温习提示
 可以看出:有一个方法，一个目标和一个包含动画信息的对象

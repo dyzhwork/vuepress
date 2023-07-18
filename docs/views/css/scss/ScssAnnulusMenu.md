@@ -11,7 +11,7 @@ tags:
 
 ## 最终效果
 
-<ScssAnnulusMenu/>
+<Scss-AnnulusMenu/>
 
 ## Vue 组件实现的代码
 

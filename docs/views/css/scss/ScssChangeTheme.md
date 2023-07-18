@@ -11,7 +11,7 @@ tags:
 
 ## 效果
 
-<ScssChangeTheme/>
+<Scss-ChangeTheme/>
 
 ## 问题导入
 

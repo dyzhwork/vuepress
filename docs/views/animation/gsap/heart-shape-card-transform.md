@@ -11,7 +11,7 @@ tags:
 
 ## 心形动画和卡片过渡效果
 
-<GSAPHeartShapeCardTransform/>
+<Gsap-HeartShapeCardTransform/>
 
 ## Vue 源码查看
 

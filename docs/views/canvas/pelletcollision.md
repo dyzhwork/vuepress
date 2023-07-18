@@ -11,7 +11,7 @@ tags:
 
 ## 一、最终效果图
 
-<PelletCollision/>
+<Canvas-PelletCollision/>
 
 ## 二、使用以下几个步骤
 

@@ -11,7 +11,7 @@ tags:
 
 ## 效果
 
-<ScssColorModule/>
+<Scss-ColorModule/>
 
 ## 代码
 
