@@ -116,6 +116,11 @@ module.exports = {
       ]
     },
     {
+      title: 'JS高级API',
+      sidebarDepath: 2,
+      children: [{ title: '拖拽元素', path: '/views/javascript/AdvancedAPI/drag-element' }]
+    },
+    {
       title: 'ES6各版本特性',
       sidebarDepath: 2,
       children: [
