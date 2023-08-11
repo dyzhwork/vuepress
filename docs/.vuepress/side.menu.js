@@ -381,6 +381,14 @@ module.exports = {
         { title: '组件命名', path: '/views/vue/skill/component-name' },
         { title: '递归调用组件', path: '/views/vue/skill/recursion-component' }
       ]
+    },
+    {
+      title: 'Vue常见优化手段',
+      sidebarDepath: 2,
+      children: [
+        { title: '使用key', path: '/views/vue/optimization/use-key' },
+        { title: '使用冻结的对象', path: '/views/vue/optimization/use-freeze-obj' }
+      ]
     }
   ],
   // vuepress
