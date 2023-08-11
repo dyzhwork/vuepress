@@ -387,7 +387,9 @@ module.exports = {
       sidebarDepath: 2,
       children: [
         { title: '使用key', path: '/views/vue/optimization/use-key' },
-        { title: '使用冻结的对象', path: '/views/vue/optimization/use-freeze-obj' }
+        { title: '使用冻结的对象', path: '/views/vue/optimization/use-freeze-obj' },
+        { title: '函数式组件', path: '/views/vue/optimization/function-com' },
+        { title: '延迟加载组件', path: '/views/vue/optimization/lazy-load-com' }
       ]
     }
   ],
