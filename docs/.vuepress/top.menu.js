@@ -9,7 +9,8 @@ module.exports = {
         { text: 'JS', link: '/views/javascript/' },
         { text: 'Canvas', link: '/views/canvas/' },
         { text: 'Echarts', link: '/views/echarts/' },
-        { text: '动画库', link: '/views/animation/' }
+        { text: '动画库', link: '/views/animation/' },
+        { text: '文件上传', link: '/views/upload-file/' }
       ]
     },
     { text: '移动端', items: [{ text: 'UniApp', link: '/views/uniapp/' }] },
