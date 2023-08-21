@@ -105,20 +105,126 @@ tags:
 
 ## 三、类型(`type`)为颜色(`color`)
 
+- color 类型的 `<input>` 元素为用户提供了指定颜色的用户界面，或使用可视化颜色选择器，或以 #rrggbb 十六进制格式输入颜色值。
+
+- 虽然 CSS 颜色有很多格式（如颜色名称、功能表记和含有透明通道的十六进制），但是这里只支持简单颜色（无透明通道）。
+
+- 此元素的外观会因浏览器不同而不同，它可能是一个简单的文本输入，自动验证以确保颜色信息以正确的格式输入，或一个平台标准的颜色选择器，或某种自定义的颜色选择器窗口。
+
+### 举例
+
+<p>请选择怪沙鸥颜色:</p>
+<div>
+  <label for="head">头部</label>
+  <input type="color" id="head" name="head" value="#e66465" />
+</div>
+
+<div>
+  <label for="body">主体</label>
+  <input type="color" id="body" name="body" value="#f6b73c" />
+</div>
+
+:::details 源码
+
+```html
+<p>请选择怪沙鸥颜色:</p>
+<div>
+  <label for="head">头部</label>
+  <input type="color" id="head" name="head" value="#e66465" />
+</div>
+
+<div>
+  <label for="body">主体</label>
+  <input type="color" id="body" name="body" value="#f6b73c" />
+</div>
+```
+
+:::
+
 ## 四、类型(`type`)为日期(`date`)
+
+type="date" 类型的`<input>`元素会创建一个让用户输入一个日期的输入区域，可以使用自动验证内容的文本框，也可以使用特殊的日期选择器界面。结果值包括年份，月份和日期，但不包括时间。time 和 datetime-local 类型支持时间和日期时间输入。
+
+### 举例
+
+<label for="start">开始日期:</label>
+<input type="date" id="start" name="trip-start" min="2023-01-01" max="2023-12-31" />
 
 ## 五、类型(`type`)为日期和时间(`datetime-local`)
 
+`<input>` 元素的 datetime-local 类型创建让用户便捷输入日期和时间的输入控件，包括“年”、“月”、“日”，以及“时”和“分”。
+
+### 举例
+
+<label for="meeting-time">选择约会时间:</label>
+<input
+  type="datetime-local"
+  id="meeting-time"
+  name="meeting-time"
+  value="2023-06-12T19:30"
+  min="2023-06-07T00:00"
+  max="2023-06-14T00:00"
+/>
+
 ## 六、类型(`type`)为邮箱地址(`email`)
+
+"email" 类型的`<input>`元素能够让用户输入或编辑一个电子邮箱地址，如果指定了 multiple (en-US) 属性，则可以输入多个电子邮箱地址。
+
+### 举例
+
+<label for="email">输入你的邮箱地址:</label>
+
+<input type="email" id="email" pattern=".+@globex\.com" size="30" required />
 
 ## 七、类型(`type`)为文件(`file`)
 
+带有 type="file" 的`<input>`元素允许用户可以从他们的设备中选择一个或多个文件。选择后，这些文件可以使用提交表单的方式上传到服务器上，或者通过 Javascript 代码和文件 API 对文件进行操作。
+
+### 举例
+
+<label for="avatar">选择一张图片:</label>
+<input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+
 ## 八、类型(`type`)为用户不可见、不可改的数据(`hidden`)
+
+hidden 类型的` <input>` 元素允许 Web 开发者包含用户不可见、不可改的数据，在用户提交表单时，这些数据会一并发送出。比如，正被请求或编辑的内容的 ID，或是一个唯一的安全令牌。这些隐藏的 input 元素在渲染完成的页面中完全不可见，而且没有方法可以使它重新变为可见。
+
+### 举例
+
+这儿隐藏了一个必须要提交的表单项:邮政编码.您看不进啊.
+<input type="hidden" id="postId" name="postId" value="34657" />
+
+```html
+<input type="hidden" id="postId" name="postId" value="34657" />
+```
 
 ## 九、类型(`type`)为图形化的提交按钮(`image`)
 
-## 十、类型(`type`)为方便输入的年份或月份(`month`)
+image 类型的` <input>` 元素用于创建图形化的提交按钮，即采用图像而非文本形式的提交按钮。
+
+### 举例
+
+<input type="image" id="image" alt="Login" src="https://img0.baidu.com/it/u=453568255,1647441996&fm=253&fmt=auto&app=138&f=JPEG?w=596&h=500" />
 
 ```html
+<input
+  type="image"
+  id="image"
+  alt="Login"
+  src="https://img0.baidu.com/it/u=453568255,1647441996&fm=253&fmt=auto&app=138&f=JPEG?w=596&h=500"
+/>
+```
 
+## 十、类型(`type`)为方便输入的年份或月份(`month`)
+
+类型为 month 的` <input>` 可以让你容易地创建一个方便输入年份或月份的一个` <input>`。输入的值是一个经过“YYYY-MM”格式化的字符串，其中 YYYY 是四位数的年份，而 MM 是月份的数值表示。
+
+### 举例
+
+<label for="start">开始月份:</label>
+<input type="month" id="start" name="start" min="2018-03" value="2018-05" />
+
+```html
+<label for="start">开始月份:</label>
+<input type="month" id="start" name="start" min="2018-03" value="2018-05" />
 ```
