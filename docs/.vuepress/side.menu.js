@@ -113,7 +113,8 @@ module.exports = {
       title: '面试题',
       sidebarDepath: 2,
       children: [
-        { title: '类型转换和运算', path: '/views/javascript/interview/type-conversion-operations' }
+        { title: '类型转换和运算', path: '/views/javascript/interview/type-conversion-operations' },
+        { title: '什么是原型和原型链', path: '/views/javascript/interview/prototype' }
       ]
     },
     {
