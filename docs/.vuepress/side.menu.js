@@ -42,7 +42,9 @@ module.exports = {
       sidebarDepath: 2,
       children: [
         { title: '一、Less入门简介', path: '/views/css/less/introduction' },
-        { title: '二、Less基础语法', path: '/views/css/less/syntactic' }
+        { title: '二、Less基础语法', path: '/views/css/less/syntactic' },
+        { title: '三、Less中级语法', path: '/views/css/less/middle-syntactic' },
+        { title: '四、Less高级语法', path: '/views/css/less/advanced-syntactic' }
       ]
     },
     {
@@ -308,7 +310,16 @@ module.exports = {
       ]
     },
     { title: 'yarn包管理器', sidebarDepath: 3, path: '/views/node/yarn' },
-    { title: 'nrm源管理器', sidebarDepath: 3, path: '/views/node/npm-registry-manager' }
+    { title: 'nrm源管理器', sidebarDepath: 3, path: '/views/node/npm-registry-manager' },
+    {
+      title: 'Node的内置模块',
+      sidebarDepath: 3,
+      children: [
+        { title: 'fs模块', path: '/views/node/built-in-module/fs-module' },
+        { title: 'path模块', path: '/views/node/built-in-module/path-module' },
+        { title: 'http模块', path: '/views/node/built-in-module/http-module' }
+      ]
+    }
   ],
   // linux
   linux: [
