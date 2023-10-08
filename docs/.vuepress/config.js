@@ -27,6 +27,7 @@ module.exports = {
       { text: 'Git相关', link: '/views/git/' },
       { text: '报错解决', link: '/views/error_resolution/' },
       { text: 'Vue前端框架', link: '/views/vue/' },
+      { text: '前端工程化', link: '/views/engineering/' },
       { text: '学习VuePress', link: '/views/vuepress/' }
     ],
     // 侧边栏 有四种写法,数组,数组对象,对象数组,自动生成
