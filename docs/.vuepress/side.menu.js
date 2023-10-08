@@ -406,6 +406,14 @@ module.exports = {
       ]
     }
   ],
+  // engineering
+  engineering: [
+    { title: '一、工程化的意义', sidebarDepath: 2, path: '/views/engineering/engineering-meaning' },
+    { title: '二、模块化和包管理', sidebarDepath: 2, path: '/views/engineering/module-package' },
+    { title: '三、JS工具链条', sidebarDepath: 2, path: '/views/engineering/js-link' },
+    { title: '四、CSS工具链条', sidebarDepath: 2, path: '/views/engineering/css-link' },
+    { title: '五、构建工具和脚手架', sidebarDepath: 2, path: '/views/engineering/build-tool-cli' }
+  ],
   // vuepress
   vuepress: [
     {
