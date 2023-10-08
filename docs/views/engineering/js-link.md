@@ -9,3 +9,13 @@ tags:
 ---
 
 ## JS 工具链
+
+- 兼容性
+
+  - API 兼容
+
+    polyfill:core-js
+
+  - 语法兼容
+
+- 语言缺陷 jsx ts

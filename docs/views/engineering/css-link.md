@@ -9,3 +9,14 @@ tags:
 ---
 
 ## CSS 工具链条
+
+- 语法缺失
+- 功能缺失
+
+新语言->>旧语言->>CSS
+
+- sass-less-stylus-postcss-css
+- autoprefixer
+- cssnano
+- purgecss
+- css module
