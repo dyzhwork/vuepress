@@ -27,6 +27,7 @@ module.exports = {
       { text: 'Git相关', link: '/views/git/' },
       { text: '报错解决', link: '/views/error_resolution/' },
       { text: 'Vue前端框架', link: '/views/vue/' },
+      { text: 'React前端框架', link: '/views/react/' },
       { text: '前端工程化', link: '/views/engineering/' },
       { text: '学习VuePress', link: '/views/vuepress/' }
     ],
@@ -47,7 +48,8 @@ module.exports = {
       '/views/windows/': menu.sideBarList.windows,
       '/views/vue/': menu.sideBarList.vuejs,
       '/views/vuepress/': menu.sideBarList.vuepress,
-      '/views/engineering/': menu.sideBarList.engineering
+      '/views/engineering/': menu.sideBarList.engineering,
+      '/views/react/': menu.sideBarList.react
     },
     sidebarDepth: 2,
     contentBgStyle: 6, // 文章内容块的背景风格，默认无. 1 方格 | 2 横线 | 3 竖线 | 4 左斜线 | 5 右斜线 | 6 点状
