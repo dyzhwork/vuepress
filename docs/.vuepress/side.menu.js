@@ -415,9 +415,10 @@ module.exports = {
     { title: '五、构建工具和脚手架', sidebarDepath: 2, path: '/views/engineering/build-tool-cli' }
   ],
   react: [
-    { title: 'React 入门', sidebarDepath: 2, path: '/views/react/react-intro' },
-    { title: 'React 组件', sidebarDepath: 2, path: '/views/react/react-component' },
-    { title: 'React 生命周期', sidebarDepath: 2, path: '/views/react/react-life' }
+    { title: 'React入门', sidebarDepath: 2, path: '/views/react/react-intro' },
+    { title: 'React组件', sidebarDepath: 2, path: '/views/react/react-component' },
+    { title: 'React生命周期', sidebarDepath: 2, path: '/views/react/react-life' },
+    { title: 'React状态管理工具', sidebarDepath: 2, path: '/views/react/react-redux' }
   ],
   // vuepress
   vuepress: [
